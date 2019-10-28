@@ -3,10 +3,9 @@ package controllers
 import (
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
-	//"dbmakepack/models"
+	"dbmakepack/models"
 	_ "github.com/go-sql-driver/mysql"
 	"fmt"
-	"time"
 )
 
 type MainController struct {
@@ -21,15 +20,9 @@ type TrynoController struct{
 	beego.Controller
 }
 
-type DbTrynolist struct{
-	Id				int `orm:"column(id);pk"`
-	Tryno			int
-	Description		string
-	Addtime 		time.Time
-	Status			int
-	Product 		string
+type PartnerController struct{
+	beego.Controller
 }
-
 
 var JsonOutput = map[string]interface{}{
 	"errorcode" : 0,
@@ -39,12 +32,6 @@ var JsonOutput = map[string]interface{}{
 }
 
 func init(){
-	orm.RegisterDriver("mysql", orm.DRMySQL)
-	maxIdle := 30
-	maxConn := 30
-	orm.RegisterDataBase("default", "mysql", "testgo:testgo123@tcp(127.0.0.1:3306)/dbmakepack?charset=utf8", maxIdle, maxConn)
-	fmt.Println("models is inited!")
-	orm.RegisterModel(new(DbTrynolist))
 }
 
 func (c *MainController) Get() {
@@ -53,21 +40,7 @@ func (c *MainController) Get() {
 	c.TplName = "index.tpl"
 }
 
-func printSlice(x []interface{}){
-	fmt.Printf("len=%d cap=%d slice=%v\n",len(x),cap(x),x)
- }
-
-
-
 func (this *ProductController) Get(){
-	//var o orm.Ormer
-	// fmt.Println("test")
-	// orm.RegisterDriver("mysql", orm.DRMySQL)
-	// //最大空闲链接
-	// maxIdle := 30
-	// maxConn := 30
-	// //orm.RegisterDataBase("default", "mysql", "root:root@/orm_test?charset=utf8", maxIdle, maxConn)
-	// _ = orm.RegisterDataBase("default", "mysql", "testgo:testgo123@tcp(127.0.0.1:3306)/dbmakepack?charset=utf8", maxIdle, maxConn)
 	o := orm.NewOrm()
 	var maps []orm.Params
 	var productlist []interface{}
@@ -76,21 +49,17 @@ func (this *ProductController) Get(){
 		fmt.Println(term["id"], ":", term["name"], num)
 		productlist = append(productlist, term["name"])
 	}
-	printSlice(productlist)
 	JsonOutput["data"] = productlist
-	this.Data["json"] = JsonOutput                     // json对象
+	this.Data["json"] = JsonOutput     
     this.ServeJSON()
     return
 }
 
 func (this *TrynoController) Get(){
-	// maxIdle := 30
-	// maxConn := 30
-	// orm.RegisterDataBase("default", "mysql", "testgo:testgo123@tcp(127.0.0.1:3306)/dbmakepack?charset=utf8", maxIdle, maxConn)
 	o := orm.NewOrm()
 	o.Using("default")
 	qs := o.QueryTable("db_trynolist")
-	var trynolist []*DbTrynolist
+	var trynolist []*models.DbTrynolist
 	var itemlist []interface{}
 	num,_ := qs.Filter("status", 1).All(&trynolist)
 	for _,term:= range trynolist{
@@ -99,7 +68,25 @@ func (this *TrynoController) Get(){
 	}
 	fmt.Println(trynolist)
 	JsonOutput["data"] = itemlist
-	this.Data["json"] = JsonOutput                     // json对象
+	this.Data["json"] = JsonOutput    
+	this.ServeJSON()
+	return
+}
+
+func (this *PartnerController) Get(){
+	o := orm.NewOrm()
+	o.Using("default")
+	qs := o.QueryTable("db_partnerlist")
+	var partnerlist []*models.DbPartnerlist
+	var itemlist []interface{}
+	num,_ := qs.Filter("status", 1).All(&partnerlist)
+	for _,term:= range partnerlist{
+		fmt.Println(term.Id,term.Partner, num)
+		itemlist = append(itemlist, term.Partner)
+	}
+	fmt.Println(partnerlist)
+	JsonOutput["data"] = itemlist
+	this.Data["json"] = JsonOutput    
 	this.ServeJSON()
 	return
 }

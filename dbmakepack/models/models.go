@@ -4,6 +4,7 @@ import(
 	"time"
 	"github.com/astaxie/beego/orm"
 	_ "github.com/go-sql-driver/mysql"
+	"fmt"
 )
 
 type Product struct{

@@ -1,0 +1,1239 @@
+2019/11/29 09:30:33.571 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|    36.0952ms| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 09:30:33.698 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|    56.1496ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 09:30:37.666 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|    19.0148ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 09:30:40.911 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 09:30:40.924 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|     4.0103ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 09:30:44.680 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 09:30:44.690 [D] [router.go:833]  gettaskinfo
+2019/11/29 09:30:44.699 [D] [router.go:833]  
+2019/11/29 09:30:44.700 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|     9.9988ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 09:30:51.836 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 09:30:51.849 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|       3.01ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 09:40:33.389 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 09:40:33.399 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     3.0083ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 09:40:57.240 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/creategameinfo
+2019/11/29 09:40:57.290 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|    41.1093ms|   match|[46m POST    [0m /perfshow/creategameinfo   r:/perfshow/creategameinfo
+2019/11/29 09:40:58.929 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 09:40:58.944 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|     4.0149ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 09:41:45.010 [D] [router.go:835]  CreateTaskinfoController
+2019/11/29 09:41:45.033 [D] [router.go:835]  {20191129094147227 111 10.12.198.127 luzhengyun 2019-11-29 09:41:45.0277786 +0800 CST m=+43510.049718301 3 1}
+2019/11/29 09:41:45.042 [D] [server.go:2774]  |    10.12.129.0|[42m 200 [0m|    32.1177ms|   match|[46m POST    [0m /perfshow/createtaskinfo   r:/perfshow/createtaskinfo
+2019/11/29 09:41:48.456 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 09:41:48.472 [D] [router.go:833]  gettaskinfo
+2019/11/29 09:41:48.477 [D] [router.go:833]  
+2019/11/29 09:41:48.478 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|     6.0035ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 09:55:32.077 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 09:55:32.228 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     3.0082ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 09:55:46.121 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 09:55:46.129 [D] [router.go:833]  gettaskinfo
+2019/11/29 09:55:46.132 [D] [router.go:833]  
+2019/11/29 09:55:46.135 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     6.0171ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 09:55:55.403 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 09:55:55.409 [D] [router.go:833]  gettaskinfo
+2019/11/29 09:55:55.411 [D] [router.go:833]  
+2019/11/29 09:55:55.414 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.0116ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 09:55:55.702 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 09:55:55.711 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     3.0057ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 10:22:29.909 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|      501.2µs| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 10:22:29.936 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.5153ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 10:32:03.392 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 10:32:03.399 [D] [router.go:833]  gettaskinfo
+2019/11/29 10:32:03.405 [D] [router.go:833]  
+2019/11/29 10:32:03.410 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    11.0288ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 10:32:05.498 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 10:32:05.521 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.5146ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 10:32:12.072 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 10:32:12.078 [D] [router.go:833]  gettaskinfo
+2019/11/29 10:32:12.082 [D] [router.go:833]  
+2019/11/29 10:32:12.086 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     8.5202ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 10:32:30.418 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 10:32:30.429 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.0133ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 10:56:58.538 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 10:56:58.571 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     17.548ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 10:57:01.158 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|      500.9µs| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 10:57:01.165 [D] [router.go:833]  gettaskinfo
+2019/11/29 10:57:01.167 [D] [router.go:833]  
+2019/11/29 10:57:01.169 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.5133ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 10:57:02.054 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     6.0169ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 10:57:03.840 [D] [router.go:833]  gettaskinfo
+2019/11/29 10:57:03.843 [D] [router.go:833]  
+2019/11/29 10:57:03.846 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     6.5169ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 10:57:09.750 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 10:57:09.756 [D] [router.go:833]  gettaskinfo
+2019/11/29 10:57:09.759 [D] [router.go:833]  
+2019/11/29 10:57:09.761 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.0127ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 11:09:40.969 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 11:09:40.984 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.0109ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 11:09:42.349 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     7.0178ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 11:09:43.814 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 11:09:43.820 [D] [router.go:833]  gettaskinfo
+2019/11/29 11:09:43.824 [D] [router.go:833]  
+2019/11/29 11:09:43.825 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.0296ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 11:10:10.159 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 11:10:10.199 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     9.0246ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 11:10:13.259 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 11:10:13.266 [D] [router.go:833]  gettaskinfo
+2019/11/29 11:10:13.270 [D] [router.go:833]  
+2019/11/29 11:10:13.271 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.5181ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 11:10:25.712 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 11:10:25.718 [D] [router.go:833]  gettaskinfo
+2019/11/29 11:10:25.723 [D] [router.go:833]  
+2019/11/29 11:10:25.724 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.9978ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 11:10:26.249 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 11:10:26.260 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     3.5359ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 11:10:26.905 [D] [router.go:833]  gettaskinfo
+2019/11/29 11:10:26.909 [D] [router.go:833]  
+2019/11/29 11:10:26.910 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.5145ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 11:10:27.781 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.0107ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 11:10:28.249 [D] [router.go:833]  gettaskinfo
+2019/11/29 11:10:28.253 [D] [router.go:833]  
+2019/11/29 11:10:28.254 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.9865ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 11:10:28.890 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|      4.511ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 11:10:29.264 [D] [router.go:833]  gettaskinfo
+2019/11/29 11:10:29.268 [D] [router.go:833]  
+2019/11/29 11:10:29.269 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.5151ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 11:10:29.899 [D] [router.go:833]  gettaskinfo
+2019/11/29 11:10:29.903 [D] [router.go:833]  
+2019/11/29 11:10:29.905 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     6.0214ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 11:10:30.385 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    23.5642ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 11:10:31.041 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 11:10:31.046 [D] [router.go:833]  gettaskinfo
+2019/11/29 11:10:31.051 [D] [router.go:833]  
+2019/11/29 11:10:31.053 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     6.5178ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 11:16:01.205 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 11:16:01.254 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    27.0711ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 11:16:02.645 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|      9.024ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 11:34:10.217 [D] [proc.go:200]  perfshow start
+2019/11/29 11:34:10.325 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/29 11:36:01.250 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|      501.4µs| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 11:36:01.277 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    16.0426ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 11:36:02.634 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 11:36:02.673 [D] [router.go:833]  gettaskinfo
+2019/11/29 11:36:02.681 [D] [router.go:833]  
+2019/11/29 11:36:02.682 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     9.5237ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 11:36:16.916 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 11:36:16.991 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     6.5177ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 11:36:18.240 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 11:36:18.277 [D] [router.go:833]  gettaskinfo
+2019/11/29 11:36:18.280 [D] [router.go:833]  
+2019/11/29 11:36:18.280 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     2.9935ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 11:37:52.960 [D] [proc.go:200]  perfshow start
+2019/11/29 11:37:53.045 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/29 11:41:53.203 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|      500.3µs| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 11:41:53.285 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    69.1848ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 11:41:54.667 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 11:41:54.674 [D] [router.go:833]  gettaskinfo
+2019/11/29 11:41:54.684 [D] [router.go:833]  
+2019/11/29 11:41:54.690 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    16.0452ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 11:43:42.282 [D] [proc.go:200]  perfshow start
+2019/11/29 11:43:42.374 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/29 11:56:01.846 [D] [proc.go:200]  perfshow start
+2019/11/29 11:56:01.946 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/29 11:56:07.039 [D] [proc.go:200]  perfshow start
+2019/11/29 11:56:07.172 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/29 11:56:09.483 [D] [proc.go:200]  perfshow start
+2019/11/29 11:56:09.572 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/29 11:57:37.620 [D] [router.go:835]  DelTaskController
+2019/11/29 11:57:37.621 [D] [router.go:835]  0
+2019/11/29 11:57:37.621 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     1.0027ms|   match|[46m POST    [0m /perfshow/deltask   r:/perfshow/deltask
+2019/11/29 11:57:50.525 [D] [router.go:835]  DelTaskController
+2019/11/29 11:57:50.526 [D] [router.go:835]  0
+2019/11/29 11:57:50.526 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|        479µs|   match|[46m POST    [0m /perfshow/deltask   r:/perfshow/deltask
+2019/11/29 11:58:39.295 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|      501.7µs| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 11:58:39.340 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    29.0753ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 11:58:39.855 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 11:58:39.863 [D] [router.go:833]  gettaskinfo
+2019/11/29 11:58:39.874 [D] [router.go:833]  
+2019/11/29 11:58:39.879 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    15.5512ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 11:58:51.376 [D] [router.go:835]  DelTaskController
+2019/11/29 11:58:51.377 [D] [router.go:835]  0
+2019/11/29 11:58:51.377 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     1.0044ms|   match|[46m POST    [0m /perfshow/deltask   r:/perfshow/deltask
+2019/11/29 11:58:59.114 [D] [router.go:835]  DelTaskController
+2019/11/29 11:58:59.115 [D] [router.go:835]  0
+2019/11/29 11:58:59.115 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|      501.5µs|   match|[46m POST    [0m /perfshow/deltask   r:/perfshow/deltask
+2019/11/29 11:59:02.719 [D] [router.go:835]  DelTaskController
+2019/11/29 11:59:02.719 [D] [router.go:835]  0
+2019/11/29 11:59:02.720 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|      997.9µs|   match|[46m POST    [0m /perfshow/deltask   r:/perfshow/deltask
+2019/11/29 11:59:47.443 [D] [proc.go:200]  perfshow start
+2019/11/29 11:59:47.622 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/29 12:01:28.366 [D] [router.go:835]  DelTaskController
+2019/11/29 12:01:28.367 [D] [router.go:835]  strconv.Atoi: parsing "": invalid syntax
+2019/11/29 12:01:28.367 [D] [router.go:835]  0
+2019/11/29 12:01:28.368 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     1.5041ms|   match|[46m POST    [0m /perfshow/deltask   r:/perfshow/deltask
+2019/11/29 12:02:36.540 [D] [proc.go:200]  perfshow start
+2019/11/29 12:02:36.649 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/29 12:02:37.700 [D] [proc.go:200]  perfshow start
+2019/11/29 12:02:37.793 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/29 12:02:54.935 [D] [router.go:835]  DelTaskController
+2019/11/29 12:02:54.936 [D] [router.go:835]  strconv.Atoi: parsing "": invalid syntax
+2019/11/29 12:02:54.936 [D] [router.go:835]  0
+2019/11/29 12:02:54.937 [D] [router.go:835]  0
+2019/11/29 12:02:54.937 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     2.5068ms|   match|[46m POST    [0m /perfshow/deltask   r:/perfshow/deltask
+2019/11/29 12:04:14.688 [D] [router.go:835]  DelTaskController
+2019/11/29 12:04:14.689 [D] [router.go:835]  strconv.Atoi: parsing "": invalid syntax
+2019/11/29 12:04:14.689 [D] [router.go:835]  0
+2019/11/29 12:04:14.689 [D] [router.go:835]  0
+2019/11/29 12:04:14.689 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|      514.5µs|   match|[46m POST    [0m /perfshow/deltask   r:/perfshow/deltask
+2019/11/29 12:04:28.785 [D] [router.go:835]  DelTaskController
+2019/11/29 12:04:28.785 [D] [router.go:835]  strconv.Atoi: parsing "": invalid syntax
+2019/11/29 12:04:28.786 [D] [router.go:835]  0
+2019/11/29 12:04:28.786 [D] [router.go:835]  0
+2019/11/29 12:04:28.787 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     2.0039ms|   match|[46m POST    [0m /perfshow/deltask   r:/perfshow/deltask
+2019/11/29 12:07:38.163 [D] [proc.go:200]  perfshow start
+2019/11/29 12:07:38.280 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/29 12:07:40.241 [D] [proc.go:200]  perfshow start
+2019/11/29 12:07:40.328 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/29 12:07:43.846 [D] [router.go:835]  CreateTaskinfoController
+2019/11/29 12:07:43.847 [D] [router.go:835]  0
+2019/11/29 12:07:43.847 [D] [router.go:835]  {95 45 10.12.128.146 liliang 2019-11-29 12:07:43.8475197 +0800 CST m=+3.845397701 1 4}
+2019/11/29 12:07:43.857 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    12.0312ms|   match|[46m POST    [0m /perfshow/createtaskinfo   r:/perfshow/createtaskinfo
+2019/11/29 12:11:57.048 [D] [proc.go:200]  perfshow start
+2019/11/29 12:11:57.218 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/29 12:11:58.469 [D] [proc.go:200]  perfshow start
+2019/11/29 12:11:58.563 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/29 12:12:31.606 [D] [router.go:835]  CreateTaskinfoController
+2019/11/29 12:12:31.609 [D] [router.go:835]  0
+2019/11/29 12:12:31.609 [D] [router.go:835]  {95 45 10.12.128.146 liliang 2019-11-29 12:12:31.6097207 +0800 CST m=+33.363940701 1 4}
+2019/11/29 12:12:31.654 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    48.6317ms|   match|[46m POST    [0m /perfshow/createtaskinfo   r:/perfshow/createtaskinfo
+2019/11/29 12:14:50.172 [D] [proc.go:200]  perfshow start
+2019/11/29 12:14:50.306 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/29 12:14:54.142 [D] [router.go:835]  CreateTaskinfoController
+2019/11/29 12:14:54.142 [D] [router.go:835]  
+2019/11/29 12:14:54.142 [D] [router.go:835]  {95 45 10.12.128.146 liliang 2019-11-29 12:14:54.1425393 +0800 CST m=+4.268903301 1 4}
+2019/11/29 12:14:54.170 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    29.0788ms|   match|[46m POST    [0m /perfshow/createtaskinfo   r:/perfshow/createtaskinfo
+2019/11/29 12:58:21.393 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    10.5281ms| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 14:41:02.577 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     1.0032ms| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 14:41:02.688 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    74.1975ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 14:41:04.523 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 14:41:04.549 [D] [router.go:833]  gettaskinfo
+2019/11/29 14:41:04.614 [D] [router.go:833]  
+2019/11/29 14:41:04.646 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    96.7574ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 14:41:07.771 [D] [router.go:833]  gettaskinfo
+2019/11/29 14:41:07.775 [D] [router.go:833]  
+2019/11/29 14:41:07.776 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.0133ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 14:41:08.557 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 14:41:08.566 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     2.0062ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 15:08:55.853 [D] [router.go:835]  {0 0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+2019/11/29 15:08:55.862 [D] [server.go:2774]  |    10.12.129.0|[42m 200 [0m|     47.125ms|   match|[46m POST    [0m /perfshow/createperfdata   r:/perfshow/createperfdata
+2019/11/29 15:13:26.411 [D] [router.go:835]  {0 0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+2019/11/29 15:13:26.420 [D] [server.go:2774]  |    10.12.129.0|[42m 200 [0m|    47.6583ms|   match|[46m POST    [0m /perfshow/createperfdata   r:/perfshow/createperfdata
+2019/11/29 15:13:39.590 [D] [router.go:835]  {0 0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+2019/11/29 15:13:39.591 [D] [server.go:2774]  |    10.12.129.0|[42m 200 [0m|     2.5088ms|   match|[46m POST    [0m /perfshow/createperfdata   r:/perfshow/createperfdata
+2019/11/29 15:15:23.408 [D] [router.go:835]  {0 0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+2019/11/29 15:15:23.409 [D] [server.go:2774]  |    10.12.129.0|[42m 200 [0m|     2.5073ms|   match|[46m POST    [0m /perfshow/createperfdata   r:/perfshow/createperfdata
+2019/11/29 15:18:12.605 [D] [router.go:835]  {0 0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+2019/11/29 15:18:12.624 [D] [server.go:2774]  |    10.12.129.0|[42m 200 [0m|     19.553ms|   match|[46m POST    [0m /perfshow/createperfdata   r:/perfshow/createperfdata
+2019/11/29 15:19:54.984 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|      501.2µs| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 15:19:55.017 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     6.0566ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 15:19:57.569 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 15:19:57.580 [D] [router.go:833]  gettaskinfo
+2019/11/29 15:19:57.585 [D] [router.go:833]  
+2019/11/29 15:19:57.585 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     5.5151ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 15:19:58.493 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     3.0089ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 15:19:59.318 [D] [router.go:833]  gettaskinfo
+2019/11/29 15:19:59.322 [D] [router.go:833]  
+2019/11/29 15:19:59.323 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     4.5022ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 15:20:19.415 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 15:20:19.421 [D] [router.go:833]  gettaskinfo
+2019/11/29 15:20:19.424 [D] [router.go:833]  
+2019/11/29 15:20:19.425 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     4.5127ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 15:20:20.989 [D] [router.go:833]  gettaskinfo
+2019/11/29 15:20:20.995 [D] [router.go:833]  
+2019/11/29 15:20:20.996 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     7.0294ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 15:20:22.049 [D] [router.go:833]  gettaskinfo
+2019/11/29 15:20:22.051 [D] [router.go:833]  
+2019/11/29 15:20:22.052 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|      3.008ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 15:20:23.029 [D] [router.go:833]  gettaskinfo
+2019/11/29 15:20:23.047 [D] [router.go:833]  
+2019/11/29 15:20:23.048 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|    19.5518ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 15:20:23.970 [D] [router.go:833]  gettaskinfo
+2019/11/29 15:20:23.973 [D] [router.go:833]  
+2019/11/29 15:20:23.974 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     4.0107ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 15:20:25.258 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 15:20:25.266 [D] [router.go:833]  gettaskinfo
+2019/11/29 15:20:25.269 [D] [router.go:833]  
+2019/11/29 15:20:25.270 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     4.5184ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 15:21:08.444 [D] [router.go:835]  {0 0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+2019/11/29 15:21:08.445 [D] [server.go:2774]  |    10.12.129.0|[42m 200 [0m|     3.0082ms|   match|[46m POST    [0m /perfshow/createperfdata   r:/perfshow/createperfdata
+2019/11/29 15:25:06.986 [D] [router.go:835]  {0 0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+2019/11/29 15:25:06.988 [D] [server.go:2774]  |    10.12.129.0|[42m 200 [0m|     4.5121ms|   match|[46m POST    [0m /perfshow/createperfdata   r:/perfshow/createperfdata
+2019/11/29 15:26:14.792 [D] [router.go:835]  {0 0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+2019/11/29 15:26:14.793 [D] [server.go:2774]  |    10.12.129.0|[42m 200 [0m|      2.521ms|   match|[46m POST    [0m /perfshow/createperfdata   r:/perfshow/createperfdata
+2019/11/29 15:27:56.340 [D] [router.go:835]  {0 0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+2019/11/29 15:27:56.357 [D] [server.go:2774]  |    10.12.129.0|[42m 200 [0m|    17.0459ms|   match|[46m POST    [0m /perfshow/createperfdata   r:/perfshow/createperfdata
+2019/11/29 15:32:40.273 [D] [router.go:835]  {0 20191129094147227  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+2019/11/29 15:32:40.307 [D] [server.go:2774]  |    10.12.129.0|[42m 200 [0m|    35.0933ms|   match|[46m POST    [0m /perfshow/createperfdata   r:/perfshow/createperfdata
+2019/11/29 15:39:54.775 [D] [router.go:835]  {0 20191129094147227 OPPO PCDM10 56.1 32.99 0 100 44.88 27.99 552.14 475.48 408.99 3.12 0 0 0 0 0}
+2019/11/29 15:39:54.788 [D] [server.go:2774]  |    10.12.129.0|[42m 200 [0m|    30.0797ms|   match|[46m POST    [0m /perfshow/createperfdata   r:/perfshow/createperfdata
+2019/11/29 15:43:26.714 [D] [router.go:835]  {0 20191129094147227 OPPO PCDM10 56.1 32.99 0 100 44.88 27.99 552.14 475.48 408.99 3.12 0 0 0 0 0}
+2019/11/29 15:43:26.721 [D] [server.go:2774]  |    10.12.129.0|[42m 200 [0m|    10.0267ms|   match|[46m POST    [0m /perfshow/createperfdata   r:/perfshow/createperfdata
+2019/11/29 15:51:22.660 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 15:51:22.677 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.0136ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 15:51:23.432 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 15:51:23.438 [D] [router.go:833]  gettaskinfo
+2019/11/29 15:51:23.443 [D] [router.go:833]  
+2019/11/29 15:51:23.446 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     8.0185ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 15:51:25.210 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     2.0047ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 15:51:25.575 [D] [router.go:833]  gettaskinfo
+2019/11/29 15:51:25.578 [D] [router.go:833]  
+2019/11/29 15:51:25.583 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|      8.021ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 15:51:26.776 [D] [router.go:833]  gettaskinfo
+2019/11/29 15:51:26.778 [D] [router.go:833]  
+2019/11/29 15:51:26.780 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.0095ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 15:51:27.421 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     2.0056ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 15:51:27.808 [D] [router.go:833]  gettaskinfo
+2019/11/29 15:51:27.810 [D] [router.go:833]  
+2019/11/29 15:51:27.812 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.0098ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 15:51:28.559 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 15:51:28.565 [D] [router.go:833]  gettaskinfo
+2019/11/29 15:51:28.567 [D] [router.go:833]  
+2019/11/29 15:51:28.569 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.0104ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 15:51:28.962 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 15:51:28.972 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     2.9872ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 15:51:29.922 [D] [router.go:833]  gettaskinfo
+2019/11/29 15:51:29.926 [D] [router.go:833]  
+2019/11/29 15:51:29.929 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     6.9928ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:04:11.767 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:04:11.774 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:04:11.781 [D] [router.go:833]  
+2019/11/29 16:04:11.782 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     8.0222ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:08:04.646 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:08:04.671 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    14.0361ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:08:06.114 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:08:06.123 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:08:06.125 [D] [router.go:833]  
+2019/11/29 16:08:06.128 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|      5.017ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:08:06.654 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     2.0221ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:08:07.100 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:08:07.104 [D] [router.go:833]  
+2019/11/29 16:08:07.107 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     7.0192ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:08:08.200 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:08:08.202 [D] [router.go:833]  
+2019/11/29 16:08:08.204 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     3.9836ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:14:23.846 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     1.0018ms| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:14:23.868 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     3.0065ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:15:25.816 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:15:25.838 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     1.0021ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:15:27.772 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:15:27.785 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:15:27.786 [D] [router.go:833]  0
+2019/11/29 16:15:27.786 [D] [router.go:833]  0
+2019/11/29 16:15:27.786 [D] [router.go:833]  gamename null
+2019/11/29 16:15:27.786 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:15:27.805 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|    20.0755ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:15:34.895 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:15:34.895 [D] [router.go:833]  0
+2019/11/29 16:15:34.896 [D] [router.go:833]  0
+2019/11/29 16:15:34.896 [D] [router.go:833]  gamename null
+2019/11/29 16:15:34.897 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:15:34.899 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|      4.007ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:15:35.123 [D] [server.go:2774]  |  10.12.128.146|[43m 404 [0m|    80.0276ms| nomatch|[44m GET     [0m /favicon.ico
+2019/11/29 16:17:11.391 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:17:11.399 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:17:11.402 [D] [router.go:833]  
+2019/11/29 16:17:11.404 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.0113ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:17:12.662 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:17:12.681 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.0103ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:17:13.237 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:17:13.244 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:17:13.245 [D] [router.go:833]  0
+2019/11/29 16:17:13.246 [D] [router.go:833]  0
+2019/11/29 16:17:13.246 [D] [router.go:833]  gamename null
+2019/11/29 16:17:13.247 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:17:13.250 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     6.0157ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:17:19.823 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:17:19.829 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:17:19.831 [D] [router.go:833]  
+2019/11/29 16:17:19.834 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.0131ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:17:20.431 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:17:20.439 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     2.0051ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:22:15.328 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:22:15.378 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     1.9635ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:22:15.906 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:22:15.914 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:22:15.915 [D] [router.go:833]  0
+2019/11/29 16:22:15.917 [D] [router.go:833]  0
+2019/11/29 16:22:15.917 [D] [router.go:833]  gamename null
+2019/11/29 16:22:15.917 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:22:15.919 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     5.0127ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:23:05.422 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:23:05.476 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|     2.0068ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:23:07.250 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:23:07.258 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:23:07.258 [D] [router.go:833]  0
+2019/11/29 16:23:07.258 [D] [router.go:833]  0
+2019/11/29 16:23:07.258 [D] [router.go:833]  gamename null
+2019/11/29 16:23:07.258 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:23:07.260 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|     1.0029ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:24:34.496 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:24:34.502 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:24:34.502 [D] [router.go:833]  0
+2019/11/29 16:24:34.502 [D] [router.go:833]  0
+2019/11/29 16:24:34.502 [D] [router.go:833]  gamename null
+2019/11/29 16:24:34.502 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:24:34.504 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     2.0042ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:24:47.181 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:24:47.182 [D] [router.go:833]  0
+2019/11/29 16:24:47.182 [D] [router.go:833]  0
+2019/11/29 16:24:47.182 [D] [router.go:833]  gamename null
+2019/11/29 16:24:47.182 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:24:47.224 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    43.1152ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:24:56.630 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:24:56.743 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|     6.0106ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:24:57.445 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:24:57.451 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:24:57.452 [D] [router.go:833]  0
+2019/11/29 16:24:57.452 [D] [router.go:833]  0
+2019/11/29 16:24:57.452 [D] [router.go:833]  gamename null
+2019/11/29 16:24:57.452 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:24:57.455 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|     3.9757ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:25:04.116 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:25:04.142 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.0156ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:25:38.076 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:25:38.118 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     4.9638ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:25:38.823 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:25:38.839 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:25:38.839 [D] [router.go:833]  0
+2019/11/29 16:25:38.839 [D] [router.go:833]  0
+2019/11/29 16:25:38.841 [D] [router.go:833]  gamename null
+2019/11/29 16:25:38.842 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:25:38.844 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     4.9962ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:25:49.840 [D] [router.go:835]  {0 20191129094147227 OPPO PCDM10 56.1 32.99 0 100 44.88 27.99 552.14 475.48 408.99 3.12 0 0 0 0 0}
+2019/11/29 16:25:49.849 [D] [server.go:2774]  |    10.12.129.0|[42m 200 [0m|    11.0293ms|   match|[46m POST    [0m /perfshow/createperfdata   r:/perfshow/createperfdata
+2019/11/29 16:25:50.291 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:25:50.303 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:25:50.305 [D] [router.go:833]  
+2019/11/29 16:25:50.305 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     2.0056ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:25:51.223 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:25:51.234 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     2.0056ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:25:52.408 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:25:52.420 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:25:52.422 [D] [router.go:833]  
+2019/11/29 16:25:52.422 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     2.0053ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:25:54.699 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:25:54.778 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|     2.0053ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:25:55.424 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:25:55.430 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:25:55.431 [D] [router.go:833]  0
+2019/11/29 16:25:55.431 [D] [router.go:833]  0
+2019/11/29 16:25:55.431 [D] [router.go:833]  gamename null
+2019/11/29 16:25:55.431 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:25:55.445 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|      15.04ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:25:55.819 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:25:55.895 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     1.9945ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:25:56.147 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:25:56.155 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:25:56.158 [D] [router.go:833]  
+2019/11/29 16:25:56.159 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|      4.012ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:25:58.159 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:25:58.168 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:25:58.169 [D] [router.go:833]  0
+2019/11/29 16:25:58.170 [D] [router.go:833]  0
+2019/11/29 16:25:58.170 [D] [router.go:833]  gamename null
+2019/11/29 16:25:58.171 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:25:58.175 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     6.9882ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:26:22.944 [D] [router.go:835]  {0 20191129094147227 OPPO PCDM10 56.1 32.99 0 100 44.88 27.99 552.14 475.48 408.99 3.12 0 0 0 0 0}
+2019/11/29 16:26:22.951 [D] [server.go:2774]  |    10.12.129.0|[42m 200 [0m|    10.0145ms|   match|[46m POST    [0m /perfshow/createperfdata   r:/perfshow/createperfdata
+2019/11/29 16:26:57.976 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:26:57.989 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|     1.0021ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:27:06.809 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:27:06.820 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:27:06.821 [D] [router.go:833]  0
+2019/11/29 16:27:06.821 [D] [router.go:833]  0
+2019/11/29 16:27:06.821 [D] [router.go:833]  gamename null
+2019/11/29 16:27:06.821 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:27:06.823 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|     2.9099ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:28:17.166 [D] [proc.go:200]  perfshow start
+2019/11/29 16:28:17.283 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/29 16:28:31.501 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:28:31.528 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    11.0293ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:28:32.170 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:28:32.176 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:28:32.176 [D] [router.go:833]  0
+2019/11/29 16:28:32.176 [D] [router.go:833]  0
+2019/11/29 16:28:32.177 [D] [router.go:833]  gamename null
+2019/11/29 16:28:32.177 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:28:32.182 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     6.0157ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:28:42.657 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:28:42.667 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:28:42.671 [D] [router.go:833]  
+2019/11/29 16:28:42.672 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|     5.0133ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:29:01.547 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:29:01.561 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     3.0085ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:29:02.631 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:29:02.639 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:29:02.642 [D] [router.go:833]  
+2019/11/29 16:29:02.647 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     8.0421ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:29:03.089 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:29:03.094 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:29:03.094 [D] [router.go:833]  0
+2019/11/29 16:29:03.094 [D] [router.go:833]  0
+2019/11/29 16:29:03.094 [D] [router.go:833]  gamename null
+2019/11/29 16:29:03.095 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:29:03.103 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     9.0209ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:29:07.723 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:29:07.729 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:29:07.732 [D] [router.go:833]  
+2019/11/29 16:29:07.733 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.0209ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:29:08.648 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:29:08.653 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:29:08.653 [D] [router.go:833]  0
+2019/11/29 16:29:08.653 [D] [router.go:833]  0
+2019/11/29 16:29:08.653 [D] [router.go:833]  gamename null
+2019/11/29 16:29:08.654 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:29:08.658 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.0159ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:29:09.233 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:29:09.237 [D] [router.go:833]  
+2019/11/29 16:29:09.238 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.0136ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:29:09.613 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     1.0027ms| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:29:09.623 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     3.0353ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:29:11.392 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:29:11.398 [D] [router.go:833]  
+2019/11/29 16:29:11.399 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     7.0195ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:29:11.810 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:29:11.810 [D] [router.go:833]  0
+2019/11/29 16:29:11.810 [D] [router.go:833]  0
+2019/11/29 16:29:11.810 [D] [router.go:833]  gamename null
+2019/11/29 16:29:11.810 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:29:11.816 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     6.0163ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:29:55.393 [D] [router.go:835]  {0 3 xiaomi3 60.6 31.2 21.2 35.4 25.4 15.4 700.533 300.533 100.633 700.533 300.533 100.633 300.533 100.633 0.63}
+2019/11/29 16:29:55.402 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    10.0249ms|   match|[46m POST    [0m /perfshow/createperfdata   r:/perfshow/createperfdata
+2019/11/29 16:29:58.555 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:29:58.570 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     3.0065ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:29:59.267 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:29:59.272 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:29:59.272 [D] [router.go:833]  0
+2019/11/29 16:29:59.272 [D] [router.go:833]  0
+2019/11/29 16:29:59.272 [D] [router.go:833]  gamename null
+2019/11/29 16:29:59.272 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:29:59.276 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.0104ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:30:13.311 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:30:13.329 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     6.0148ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:30:13.972 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:30:13.978 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:30:13.982 [D] [router.go:833]  
+2019/11/29 16:30:13.983 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.0128ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:30:14.430 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:30:14.440 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:30:14.441 [D] [router.go:833]  0
+2019/11/29 16:30:14.441 [D] [router.go:833]  0
+2019/11/29 16:30:14.441 [D] [router.go:833]  gamename null
+2019/11/29 16:30:14.441 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:30:14.447 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     7.0187ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:32:14.879 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:32:14.916 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     3.0088ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:34:04.424 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:34:04.437 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|      3.008ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:34:05.166 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:34:05.171 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:34:05.175 [D] [router.go:833]  
+2019/11/29 16:34:05.176 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.0193ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:34:05.717 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:34:05.722 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:34:05.723 [D] [router.go:833]  0
+2019/11/29 16:34:05.724 [D] [router.go:833]  0
+2019/11/29 16:34:05.724 [D] [router.go:833]  gamename null
+2019/11/29 16:34:05.724 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:34:05.729 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     8.0225ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:34:29.597 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:34:29.603 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:34:29.606 [D] [router.go:833]  
+2019/11/29 16:34:29.608 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.0159ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:34:44.626 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:34:44.636 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     3.0083ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:34:45.410 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:34:45.417 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:34:45.417 [D] [router.go:833]  0
+2019/11/29 16:34:45.417 [D] [router.go:833]  0
+2019/11/29 16:34:45.417 [D] [router.go:833]  gamename null
+2019/11/29 16:34:45.417 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:34:45.474 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    56.1493ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:34:45.948 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     3.9879ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:34:46.319 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:34:46.326 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:34:46.331 [D] [router.go:833]  
+2019/11/29 16:34:46.335 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     9.0021ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:34:46.712 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:34:46.713 [D] [router.go:833]  0
+2019/11/29 16:34:46.713 [D] [router.go:833]  0
+2019/11/29 16:34:46.714 [D] [router.go:833]  gamename null
+2019/11/29 16:34:46.714 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:34:46.740 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    28.0792ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:34:47.248 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:34:47.252 [D] [router.go:833]  
+2019/11/29 16:34:47.255 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|      7.019ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:34:47.586 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     3.0077ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:34:48.007 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:34:48.012 [D] [router.go:833]  
+2019/11/29 16:34:48.016 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     9.0237ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:34:48.295 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:34:48.296 [D] [router.go:833]  0
+2019/11/29 16:34:48.297 [D] [router.go:833]  0
+2019/11/29 16:34:48.297 [D] [router.go:833]  gamename null
+2019/11/29 16:34:48.297 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:34:48.304 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     9.0229ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:34:51.362 [D] [router.go:835]  {0 20191129094147227 OPPO PCDM10 56.1 32.99 0 100 44.88 27.99 552.14 475.48 408.99 3.12 0 0 0 0 0.63}
+2019/11/29 16:34:51.370 [D] [server.go:2774]  |    10.12.129.0|[42m 200 [0m|    19.0754ms|   match|[46m POST    [0m /perfshow/createperfdata   r:/perfshow/createperfdata
+2019/11/29 16:34:54.438 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:34:54.514 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|     1.9797ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:34:55.008 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:34:55.014 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:34:55.015 [D] [router.go:833]  0
+2019/11/29 16:34:55.015 [D] [router.go:833]  0
+2019/11/29 16:34:55.015 [D] [router.go:833]  gamename null
+2019/11/29 16:34:55.015 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:34:55.018 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|     4.0087ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:35:26.016 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:35:26.020 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:35:26.024 [D] [router.go:833]  
+2019/11/29 16:35:26.025 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|      5.043ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:35:26.568 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:35:26.575 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     2.9951ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:35:28.204 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:35:28.207 [D] [router.go:833]  
+2019/11/29 16:35:28.208 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     3.9879ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:35:28.669 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:35:28.674 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:35:28.674 [D] [router.go:833]  0
+2019/11/29 16:35:28.674 [D] [router.go:833]  0
+2019/11/29 16:35:28.675 [D] [router.go:833]  gamename null
+2019/11/29 16:35:28.675 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:35:28.678 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.0107ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:35:29.550 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:35:29.554 [D] [router.go:833]  
+2019/11/29 16:35:29.555 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.0099ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:35:30.221 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.0107ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:35:31.188 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:35:31.192 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:35:31.195 [D] [router.go:833]  
+2019/11/29 16:35:31.197 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.0108ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:36:04.368 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:36:04.373 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:36:04.373 [D] [router.go:833]  0
+2019/11/29 16:36:04.373 [D] [router.go:833]  0
+2019/11/29 16:36:04.373 [D] [router.go:833]  gamename null
+2019/11/29 16:36:04.373 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:36:04.378 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.9846ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:36:05.893 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:36:05.898 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:36:05.901 [D] [router.go:833]  
+2019/11/29 16:36:05.902 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     3.9902ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:36:06.916 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:36:06.922 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     2.0051ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:36:07.880 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:36:07.883 [D] [router.go:833]  
+2019/11/29 16:36:07.884 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.0357ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:36:11.244 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:36:11.249 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:36:11.249 [D] [router.go:833]  0
+2019/11/29 16:36:11.250 [D] [router.go:833]  0
+2019/11/29 16:36:11.250 [D] [router.go:833]  gamename null
+2019/11/29 16:36:11.250 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:36:11.254 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|      5.041ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:36:11.779 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:36:11.784 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:36:11.787 [D] [router.go:833]  
+2019/11/29 16:36:11.788 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.0092ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:36:12.327 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     1.0026ms| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:36:12.335 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|      3.006ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:36:12.871 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:36:12.874 [D] [router.go:833]  
+2019/11/29 16:36:12.875 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.0139ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:36:13.493 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:36:13.494 [D] [router.go:833]  0
+2019/11/29 16:36:13.494 [D] [router.go:833]  0
+2019/11/29 16:36:13.494 [D] [router.go:833]  gamename null
+2019/11/29 16:36:13.494 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:36:13.498 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.0099ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:36:14.037 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:36:14.041 [D] [router.go:833]  
+2019/11/29 16:36:14.042 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.0036ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:36:14.633 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     3.0068ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:36:15.155 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:36:15.157 [D] [router.go:833]  
+2019/11/29 16:36:15.158 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.0101ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:36:15.564 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:36:15.566 [D] [router.go:833]  0
+2019/11/29 16:36:15.567 [D] [router.go:833]  0
+2019/11/29 16:36:15.567 [D] [router.go:833]  gamename null
+2019/11/29 16:36:15.567 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:36:15.572 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     8.0213ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:36:16.269 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:36:16.271 [D] [router.go:833]  
+2019/11/29 16:36:16.272 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     2.9838ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:36:16.696 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     3.0083ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:36:17.197 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:36:17.201 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:36:17.204 [D] [router.go:833]  
+2019/11/29 16:36:17.205 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.0112ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:36:17.764 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:36:17.772 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:36:17.772 [D] [router.go:833]  0
+2019/11/29 16:36:17.772 [D] [router.go:833]  0
+2019/11/29 16:36:17.772 [D] [router.go:833]  gamename null
+2019/11/29 16:36:17.772 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:36:17.775 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     3.9851ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:36:19.398 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:36:19.401 [D] [router.go:833]  
+2019/11/29 16:36:19.402 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.0107ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:36:39.955 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:36:39.963 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     1.9798ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:36:44.811 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     1.0029ms| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:36:44.815 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:36:44.818 [D] [router.go:833]  
+2019/11/29 16:36:44.819 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.0101ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:36:47.363 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:36:47.371 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     3.0043ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:36:47.787 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:36:47.790 [D] [router.go:833]  
+2019/11/29 16:36:47.791 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.0101ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:36:48.124 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:36:48.131 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:36:48.131 [D] [router.go:833]  0
+2019/11/29 16:36:48.131 [D] [router.go:833]  0
+2019/11/29 16:36:48.131 [D] [router.go:833]  gamename null
+2019/11/29 16:36:48.132 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:36:48.135 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.0371ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:36:48.579 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:36:48.584 [D] [router.go:833]  
+2019/11/29 16:36:48.585 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     6.0006ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:36:48.923 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     2.0053ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:36:49.234 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:36:49.236 [D] [router.go:833]  
+2019/11/29 16:36:49.268 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    34.0907ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:36:49.507 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:36:49.508 [D] [router.go:833]  0
+2019/11/29 16:36:49.509 [D] [router.go:833]  0
+2019/11/29 16:36:49.509 [D] [router.go:833]  gamename null
+2019/11/29 16:36:49.509 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:36:49.514 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     7.0232ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:36:54.343 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:36:54.356 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:36:54.360 [D] [router.go:833]  
+2019/11/29 16:36:54.361 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     5.0156ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:37:14.597 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:37:14.603 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:37:14.606 [D] [router.go:833]  
+2019/11/29 16:37:14.607 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.0221ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:37:18.170 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:37:18.178 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:37:18.178 [D] [router.go:833]  0
+2019/11/29 16:37:18.178 [D] [router.go:833]  0
+2019/11/29 16:37:18.178 [D] [router.go:833]  gamename null
+2019/11/29 16:37:18.178 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:37:18.184 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     6.0302ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:37:19.099 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:37:19.103 [D] [router.go:833]  
+2019/11/29 16:37:19.104 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.0125ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:37:19.419 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:37:19.428 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.0095ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:37:19.771 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:37:19.775 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:37:19.779 [D] [router.go:833]  
+2019/11/29 16:37:19.781 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     6.0174ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:37:20.110 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:37:20.110 [D] [router.go:833]  0
+2019/11/29 16:37:20.112 [D] [router.go:833]  0
+2019/11/29 16:37:20.112 [D] [router.go:833]  gamename null
+2019/11/29 16:37:20.112 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:37:20.117 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     7.0181ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:37:27.959 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:37:27.967 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:37:27.975 [D] [router.go:833]  
+2019/11/29 16:37:27.976 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|     8.9924ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:37:35.589 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:37:35.594 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:37:35.599 [D] [router.go:833]  
+2019/11/29 16:37:35.599 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.0139ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:37:38.390 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:37:38.399 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:37:38.399 [D] [router.go:833]  0
+2019/11/29 16:37:38.399 [D] [router.go:833]  0
+2019/11/29 16:37:38.399 [D] [router.go:833]  gamename null
+2019/11/29 16:37:38.399 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:37:38.404 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|     5.0168ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:37:39.305 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|      980.8µs| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:37:39.312 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:37:39.317 [D] [router.go:833]  
+2019/11/29 16:37:39.318 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|     6.0151ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:37:40.303 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:37:40.304 [D] [router.go:833]  0
+2019/11/29 16:37:40.304 [D] [router.go:833]  0
+2019/11/29 16:37:40.304 [D] [router.go:833]  gamename null
+2019/11/29 16:37:40.305 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:37:40.310 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|     7.0193ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:37:41.825 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:37:41.828 [D] [router.go:833]  
+2019/11/29 16:37:41.829 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|     4.0107ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:37:55.225 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:37:55.239 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:37:55.240 [D] [router.go:833]  0
+2019/11/29 16:37:55.240 [D] [router.go:833]  0
+2019/11/29 16:37:55.241 [D] [router.go:833]  gamename null
+2019/11/29 16:37:55.241 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:37:55.245 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|     6.0203ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:37:56.757 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:37:56.766 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:37:56.774 [D] [router.go:833]  
+2019/11/29 16:37:56.775 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|     9.0195ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:37:59.255 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:37:59.257 [D] [router.go:833]  0
+2019/11/29 16:37:59.257 [D] [router.go:833]  0
+2019/11/29 16:37:59.257 [D] [router.go:833]  gamename null
+2019/11/29 16:37:59.257 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:37:59.261 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|     5.9932ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:38:58.420 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:38:58.426 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:38:58.426 [D] [router.go:833]  0
+2019/11/29 16:38:58.427 [D] [router.go:833]  0
+2019/11/29 16:38:58.427 [D] [router.go:833]  gamename null
+2019/11/29 16:38:58.427 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:38:58.430 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     3.9916ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:38:58.785 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:38:58.791 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:38:58.794 [D] [router.go:833]  
+2019/11/29 16:38:58.795 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.0192ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:38:59.096 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:38:59.108 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     7.0187ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:38:59.731 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:38:59.736 [D] [router.go:833]  
+2019/11/29 16:38:59.737 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     6.0154ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:39:00.119 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:39:00.120 [D] [router.go:833]  0
+2019/11/29 16:39:00.120 [D] [router.go:833]  0
+2019/11/29 16:39:00.120 [D] [router.go:833]  gamename null
+2019/11/29 16:39:00.120 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:39:00.125 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     6.0163ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:39:00.515 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:39:00.518 [D] [router.go:833]  
+2019/11/29 16:39:00.519 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.0104ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:39:00.899 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     3.0074ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:39:01.656 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:39:01.660 [D] [router.go:833]  
+2019/11/29 16:39:01.661 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.0145ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:39:02.084 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:39:02.085 [D] [router.go:833]  0
+2019/11/29 16:39:02.085 [D] [router.go:833]  0
+2019/11/29 16:39:02.085 [D] [router.go:833]  gamename null
+2019/11/29 16:39:02.085 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:39:02.090 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     6.0177ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:39:02.451 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:39:02.455 [D] [router.go:833]  
+2019/11/29 16:39:02.456 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|      5.013ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:39:43.162 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:39:43.169 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:39:43.174 [D] [router.go:833]  
+2019/11/29 16:39:43.175 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|     5.9861ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:39:59.555 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:39:59.578 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|     3.0074ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:40:01.561 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 16:40:01.568 [D] [router.go:833]  gettaskinfo
+2019/11/29 16:40:01.571 [D] [router.go:833]  
+2019/11/29 16:40:01.572 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|     4.0104ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 16:41:17.985 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:41:17.990 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:41:17.990 [D] [router.go:833]  0
+2019/11/29 16:41:17.991 [D] [router.go:833]  0
+2019/11/29 16:41:17.991 [D] [router.go:833]  gamename null
+2019/11/29 16:41:17.991 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:41:17.997 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     6.9894ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:42:21.679 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:42:21.689 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:42:21.689 [D] [router.go:833]  0
+2019/11/29 16:42:21.689 [D] [router.go:833]  0
+2019/11/29 16:42:21.690 [D] [router.go:833]  gamename null
+2019/11/29 16:42:21.690 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:42:21.693 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|     4.0113ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:44:58.458 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:44:58.467 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:44:58.467 [D] [router.go:833]  0
+2019/11/29 16:44:58.468 [D] [router.go:833]  0
+2019/11/29 16:44:58.468 [D] [router.go:833]  gamename null
+2019/11/29 16:44:58.468 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:44:58.473 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     7.0192ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 16:45:03.960 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     1.0027ms| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 16:45:03.970 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     2.8095ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 16:45:07.621 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 16:45:07.636 [D] [router.go:833]  GetPerfdataController
+2019/11/29 16:45:07.636 [D] [router.go:833]  0
+2019/11/29 16:45:07.636 [D] [router.go:833]  0
+2019/11/29 16:45:07.637 [D] [router.go:833]  gamename null
+2019/11/29 16:45:07.637 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 16:45:07.640 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     4.0075ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 17:06:16.144 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 17:06:16.163 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     5.9955ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:06:20.204 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 17:06:20.217 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:06:20.223 [D] [router.go:833]  
+2019/11/29 17:06:20.224 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     6.9967ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:06:54.724 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 17:06:54.751 [D] [router.go:833]  GetPerfdataController
+2019/11/29 17:06:54.752 [D] [router.go:833]  0
+2019/11/29 17:06:54.753 [D] [router.go:833]  0
+2019/11/29 17:06:54.753 [D] [router.go:833]  gamename null
+2019/11/29 17:06:54.753 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 17:06:54.758 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     7.0192ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 17:07:57.529 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 17:07:57.541 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     2.0258ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:08:38.636 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 17:08:38.646 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:08:38.650 [D] [router.go:833]  
+2019/11/29 17:08:38.651 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     5.0122ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:08:59.248 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 17:08:59.258 [D] [router.go:833]  GetPerfdataController
+2019/11/29 17:08:59.258 [D] [router.go:833]  0
+2019/11/29 17:08:59.260 [D] [router.go:833]  0
+2019/11/29 17:08:59.260 [D] [router.go:833]  gamename null
+2019/11/29 17:08:59.260 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 17:08:59.263 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     5.0131ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 17:10:14.373 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 17:10:14.380 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:10:14.383 [D] [router.go:833]  
+2019/11/29 17:10:14.384 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     4.0109ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:10:26.476 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 17:10:26.487 [D] [router.go:833]  GetPerfdataController
+2019/11/29 17:10:26.487 [D] [router.go:833]  0
+2019/11/29 17:10:26.488 [D] [router.go:833]  0
+2019/11/29 17:10:26.488 [D] [router.go:833]  gamename null
+2019/11/29 17:10:26.488 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 17:10:26.492 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     5.0142ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 17:10:27.503 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 17:10:27.512 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:10:27.544 [D] [router.go:833]  
+2019/11/29 17:10:27.545 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|    33.0897ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:10:41.507 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 17:10:41.525 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     2.0059ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:10:50.934 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 17:10:50.942 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:10:50.947 [D] [router.go:833]  
+2019/11/29 17:10:50.947 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     5.0315ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:10:55.007 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 17:10:55.024 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     3.0086ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:11:15.879 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 17:11:15.891 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:11:15.896 [D] [router.go:833]  
+2019/11/29 17:11:15.897 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     5.9864ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:11:20.880 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 17:11:20.893 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     4.9923ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:11:35.099 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 17:11:35.109 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:11:35.117 [D] [router.go:833]  
+2019/11/29 17:11:35.118 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     8.9992ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:11:36.380 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 17:11:36.394 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     3.0097ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:11:37.825 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:11:37.828 [D] [router.go:833]  
+2019/11/29 17:11:37.829 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     4.0101ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:11:39.450 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     2.0051ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:11:48.103 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     1.0129ms| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 17:11:48.115 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:11:48.118 [D] [router.go:833]  
+2019/11/29 17:11:48.118 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     3.0117ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:12:07.566 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 17:12:07.579 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     2.9822ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:13:29.368 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 17:13:29.380 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:13:29.385 [D] [router.go:833]  
+2019/11/29 17:13:29.386 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     6.0163ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:13:30.524 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 17:13:30.542 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     2.9767ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:13:33.348 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:13:33.354 [D] [router.go:833]  
+2019/11/29 17:13:33.357 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     8.0506ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:13:50.998 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 17:13:51.018 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     5.9995ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:15:47.347 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 17:15:47.373 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     2.9375ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:17:14.274 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 17:17:14.308 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     3.0191ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:17:25.618 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 17:17:25.629 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:17:25.652 [D] [router.go:833]  
+2019/11/29 17:17:25.652 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     23.036ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:17:39.225 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 17:17:39.238 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     3.9745ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:17:44.305 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 17:17:44.318 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:17:44.323 [D] [router.go:833]  
+2019/11/29 17:17:44.324 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     6.0149ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:17:55.284 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 17:17:55.294 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     2.0051ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:18:13.768 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 17:18:13.781 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:18:13.788 [D] [router.go:833]  
+2019/11/29 17:18:13.789 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     8.0227ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:18:17.658 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 17:18:17.678 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     3.0083ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:18:50.818 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     1.0021ms| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 17:18:50.848 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:18:50.857 [D] [router.go:833]  
+2019/11/29 17:18:50.858 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|    10.0313ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:18:51.313 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 17:18:51.330 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     3.9825ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:19:15.809 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 17:19:15.821 [D] [router.go:833]  GetPerfdataController
+2019/11/29 17:19:15.821 [D] [router.go:833]  0
+2019/11/29 17:19:15.821 [D] [router.go:833]  0
+2019/11/29 17:19:15.822 [D] [router.go:833]  gamename null
+2019/11/29 17:19:15.822 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 17:19:15.825 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     3.9896ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 17:19:23.523 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 17:19:23.537 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     3.0077ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:19:26.946 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 17:19:26.960 [D] [router.go:833]  GetPerfdataController
+2019/11/29 17:19:26.961 [D] [router.go:833]  0
+2019/11/29 17:19:26.961 [D] [router.go:833]  0
+2019/11/29 17:19:26.962 [D] [router.go:833]  gamename null
+2019/11/29 17:19:26.963 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 17:19:26.972 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|    12.0433ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 17:19:44.931 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 17:19:44.944 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:19:44.947 [D] [router.go:833]  
+2019/11/29 17:19:44.948 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     4.0123ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:19:49.459 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 17:19:49.478 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     5.0113ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:20:01.193 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 17:20:01.204 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:20:01.209 [D] [router.go:833]  
+2019/11/29 17:20:01.210 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     5.9898ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:20:01.749 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 17:20:01.761 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     2.0054ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:20:02.710 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:20:02.712 [D] [router.go:833]  
+2019/11/29 17:20:02.713 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     2.9841ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:20:03.026 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 17:20:03.044 [D] [router.go:833]  GetPerfdataController
+2019/11/29 17:20:03.044 [D] [router.go:833]  0
+2019/11/29 17:20:03.045 [D] [router.go:833]  0
+2019/11/29 17:20:03.045 [D] [router.go:833]  gamename null
+2019/11/29 17:20:03.045 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 17:20:03.049 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|      5.013ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 17:20:20.714 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 17:20:20.725 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     2.0067ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:21:24.075 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 17:21:24.084 [D] [router.go:833]  GetPerfdataController
+2019/11/29 17:21:24.084 [D] [router.go:833]  0
+2019/11/29 17:21:24.084 [D] [router.go:833]  0
+2019/11/29 17:21:24.085 [D] [router.go:833]  gamename null
+2019/11/29 17:21:24.085 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 17:21:24.087 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     3.0321ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 17:27:13.876 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 17:27:13.887 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:27:13.892 [D] [router.go:833]  
+2019/11/29 17:27:13.893 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|     5.9825ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:27:37.436 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 17:27:37.448 [D] [router.go:833]  GetPerfdataController
+2019/11/29 17:27:37.448 [D] [router.go:833]  0
+2019/11/29 17:27:37.448 [D] [router.go:833]  0
+2019/11/29 17:27:37.448 [D] [router.go:833]  gamename null
+2019/11/29 17:27:37.448 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 17:27:37.455 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|     7.0193ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 17:29:01.257 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 17:29:01.268 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:29:01.276 [D] [router.go:833]  
+2019/11/29 17:29:01.278 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|      10.03ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:29:06.608 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 17:29:06.613 [D] [router.go:833]  GetPerfdataController
+2019/11/29 17:29:06.614 [D] [router.go:833]  0
+2019/11/29 17:29:06.614 [D] [router.go:833]  0
+2019/11/29 17:29:06.614 [D] [router.go:833]  gamename null
+2019/11/29 17:29:06.614 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 17:29:06.618 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|     5.0139ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 17:29:12.230 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 17:29:12.236 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:29:12.238 [D] [router.go:833]  
+2019/11/29 17:29:12.240 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|     3.0085ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:29:15.664 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|     1.0132ms| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 17:29:15.678 [D] [router.go:833]  GetPerfdataController
+2019/11/29 17:29:15.678 [D] [router.go:833]  0
+2019/11/29 17:29:15.678 [D] [router.go:833]  0
+2019/11/29 17:29:15.678 [D] [router.go:833]  gamename null
+2019/11/29 17:29:15.678 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 17:29:15.681 [D] [server.go:2774]  |   10.12.128.64|[42m 200 [0m|      3.008ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 17:36:35.230 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 17:36:35.346 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.0098ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:36:36.006 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 17:36:36.013 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:36:36.017 [D] [router.go:833]  
+2019/11/29 17:36:36.021 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|      8.021ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:36:36.476 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     1.0021ms| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 17:36:36.482 [D] [router.go:833]  GetPerfdataController
+2019/11/29 17:36:36.482 [D] [router.go:833]  0
+2019/11/29 17:36:36.482 [D] [router.go:833]  0
+2019/11/29 17:36:36.483 [D] [router.go:833]  gamename null
+2019/11/29 17:36:36.483 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 17:36:36.488 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     6.0146ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 17:36:37.481 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:36:37.486 [D] [router.go:833]  
+2019/11/29 17:36:37.490 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|      9.024ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:36:38.119 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.0098ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:36:38.518 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:36:38.522 [D] [router.go:833]  
+2019/11/29 17:36:38.524 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     6.0154ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:36:38.982 [D] [router.go:833]  GetPerfdataController
+2019/11/29 17:36:38.984 [D] [router.go:833]  0
+2019/11/29 17:36:38.985 [D] [router.go:833]  0
+2019/11/29 17:36:38.986 [D] [router.go:833]  gamename null
+2019/11/29 17:36:38.986 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 17:36:38.993 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    11.0333ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 17:36:41.871 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 17:36:41.876 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:36:41.881 [D] [router.go:833]  
+2019/11/29 17:36:41.882 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     6.0155ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:36:42.637 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 17:36:42.642 [D] [router.go:833]  GetPerfdataController
+2019/11/29 17:36:42.642 [D] [router.go:833]  0
+2019/11/29 17:36:42.642 [D] [router.go:833]  0
+2019/11/29 17:36:42.642 [D] [router.go:833]  gamename null
+2019/11/29 17:36:42.642 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 17:36:42.649 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     7.0184ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 17:36:46.213 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:36:46.218 [D] [router.go:833]  
+2019/11/29 17:36:46.220 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     6.0422ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:36:47.909 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 17:36:47.911 [D] [router.go:833]  GetPerfdataController
+2019/11/29 17:36:47.912 [D] [router.go:833]  0
+2019/11/29 17:36:47.912 [D] [router.go:833]  0
+2019/11/29 17:36:47.912 [D] [router.go:833]  gamename null
+2019/11/29 17:36:47.912 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 17:36:47.918 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     6.0157ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 17:36:49.356 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     1.0024ms| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 17:36:49.360 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:36:49.364 [D] [router.go:833]  
+2019/11/29 17:36:49.367 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|       7.02ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:37:01.144 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    10.0494ms| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 17:37:01.160 [D] [router.go:833]  GetPerfdataController
+2019/11/29 17:37:01.160 [D] [router.go:833]  0
+2019/11/29 17:37:01.160 [D] [router.go:833]  0
+2019/11/29 17:37:01.161 [D] [router.go:833]  gamename null
+2019/11/29 17:37:01.161 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 17:37:01.178 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    18.0278ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 17:37:01.786 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 17:37:01.795 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     3.0072ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:37:02.791 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 17:37:02.795 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:37:02.800 [D] [router.go:833]  
+2019/11/29 17:37:02.803 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     8.0207ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:37:03.338 [D] [router.go:833]  GetPerfdataController
+2019/11/29 17:37:03.338 [D] [router.go:833]  0
+2019/11/29 17:37:03.338 [D] [router.go:833]  0
+2019/11/29 17:37:03.338 [D] [router.go:833]  gamename null
+2019/11/29 17:37:03.339 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 17:37:03.346 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     8.0227ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 17:37:03.713 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:37:03.716 [D] [router.go:833]  
+2019/11/29 17:37:03.720 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     7.0195ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:37:04.059 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     2.0062ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:37:05.008 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:37:05.013 [D] [router.go:833]  
+2019/11/29 17:37:05.017 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|      9.024ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:37:05.683 [D] [router.go:833]  GetPerfdataController
+2019/11/29 17:37:05.684 [D] [router.go:833]  0
+2019/11/29 17:37:05.684 [D] [router.go:833]  0
+2019/11/29 17:37:05.684 [D] [router.go:833]  gamename null
+2019/11/29 17:37:05.684 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 17:37:05.691 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     8.0205ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 17:37:06.497 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:37:06.501 [D] [router.go:833]  
+2019/11/29 17:37:06.505 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     8.0227ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:37:06.908 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 17:37:06.917 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     2.0056ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:37:24.940 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 17:37:24.947 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:37:24.951 [D] [router.go:833]  
+2019/11/29 17:37:24.955 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|      8.021ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:37:25.482 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 17:37:25.490 [D] [router.go:833]  GetPerfdataController
+2019/11/29 17:37:25.490 [D] [router.go:833]  0
+2019/11/29 17:37:25.491 [D] [router.go:833]  0
+2019/11/29 17:37:25.491 [D] [router.go:833]  gamename null
+2019/11/29 17:37:25.491 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 17:37:25.501 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    11.0279ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 17:38:29.510 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 17:38:29.517 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:38:29.521 [D] [router.go:833]  
+2019/11/29 17:38:29.524 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     8.0211ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:38:30.203 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 17:38:30.212 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|      3.008ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:38:30.731 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:38:30.734 [D] [router.go:833]  
+2019/11/29 17:38:30.737 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     6.0146ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:38:31.202 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 17:38:31.209 [D] [router.go:833]  GetPerfdataController
+2019/11/29 17:38:31.210 [D] [router.go:833]  0
+2019/11/29 17:38:31.210 [D] [router.go:833]  0
+2019/11/29 17:38:31.210 [D] [router.go:833]  gamename null
+2019/11/29 17:38:31.210 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 17:38:31.216 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|      7.005ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 17:38:31.779 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:38:31.783 [D] [router.go:833]  
+2019/11/29 17:38:31.784 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.0347ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:38:32.235 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     3.0078ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 17:38:32.809 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:38:32.813 [D] [router.go:833]  
+2019/11/29 17:38:32.816 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     7.0184ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:38:33.250 [D] [router.go:833]  GetPerfdataController
+2019/11/29 17:38:33.251 [D] [router.go:833]  0
+2019/11/29 17:38:33.252 [D] [router.go:833]  0
+2019/11/29 17:38:33.252 [D] [router.go:833]  gamename null
+2019/11/29 17:38:33.252 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 17:38:33.256 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|      6.033ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 17:40:24.176 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 17:40:24.181 [D] [router.go:833]  gettaskinfo
+2019/11/29 17:40:24.185 [D] [router.go:833]  
+2019/11/29 17:40:24.187 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     6.0158ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 17:40:25.009 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 17:40:25.019 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.0106ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 19:37:16.881 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|     1.4879ms| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 19:37:16.924 [D] [router.go:833]  GetPerfdataController
+2019/11/29 19:37:16.931 [D] [router.go:833]  0
+2019/11/29 19:37:16.931 [D] [router.go:833]  0
+2019/11/29 19:37:16.931 [D] [router.go:833]  gamename null
+2019/11/29 19:37:16.931 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 19:37:16.946 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|    22.0459ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 19:37:21.559 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 19:37:21.583 [D] [router.go:833]  gettaskinfo
+2019/11/29 19:37:21.590 [D] [router.go:833]  
+2019/11/29 19:37:21.591 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|     8.0341ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 19:37:27.270 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|        487µs| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 19:37:27.284 [D] [router.go:833]  GetPerfdataController
+2019/11/29 19:37:27.284 [D] [router.go:833]  0
+2019/11/29 19:37:27.285 [D] [router.go:833]  0
+2019/11/29 19:37:27.285 [D] [router.go:833]  gamename null
+2019/11/29 19:37:27.285 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 19:37:27.292 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|     7.5483ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 19:37:37.401 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|      500.3µs| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 19:37:37.420 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|     5.5139ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 19:37:39.653 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 19:37:39.666 [D] [router.go:833]  GetPerfdataController
+2019/11/29 19:37:39.667 [D] [router.go:833]  0
+2019/11/29 19:37:39.667 [D] [router.go:833]  0
+2019/11/29 19:37:39.667 [D] [router.go:833]  gamename null
+2019/11/29 19:37:39.667 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 19:37:39.674 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|     7.5195ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 19:50:46.470 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|      502.6µs| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 19:50:46.515 [D] [router.go:833]  gettaskinfo
+2019/11/29 19:50:46.524 [D] [router.go:833]  
+2019/11/29 19:50:46.525 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|    11.0262ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 19:51:28.394 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|     50.133ms| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 19:51:28.411 [D] [router.go:833]  GetPerfdataController
+2019/11/29 19:51:28.411 [D] [router.go:833]  0
+2019/11/29 19:51:28.411 [D] [router.go:833]  0
+2019/11/29 19:51:28.412 [D] [router.go:833]  gamename null
+2019/11/29 19:51:28.412 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 19:51:28.418 [D] [server.go:2774]  |   10.12.194.81|[42m 200 [0m|     6.5171ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 21:39:08.394 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    48.6266ms| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 21:39:08.484 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    58.1541ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/29 21:39:09.057 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/29 21:39:09.064 [D] [router.go:833]  gettaskinfo
+2019/11/29 21:39:09.113 [D] [router.go:833]  
+2019/11/29 21:39:09.117 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    53.6419ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/29 21:39:10.113 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getperfdata
+2019/11/29 21:39:10.121 [D] [router.go:833]  GetPerfdataController
+2019/11/29 21:39:10.122 [D] [router.go:833]  0
+2019/11/29 21:39:10.122 [D] [router.go:833]  0
+2019/11/29 21:39:10.122 [D] [router.go:833]  gamename null
+2019/11/29 21:39:10.122 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/29 21:39:10.133 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    12.0317ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/29 22:09:41.067 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     1.5039ms| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/29 22:09:41.202 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     7.5201ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo

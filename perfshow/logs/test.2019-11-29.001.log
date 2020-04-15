@@ -1,0 +1,230 @@
+2019/11/28 16:31:52.025 [D] [router.go:833]  gettaskinfo
+2019/11/28 16:31:52.032 [D] [router.go:833]  庄园
+2019/11/28 16:31:52.033 [D] [router.go:833]  query gamename
+2019/11/28 16:31:52.033 [D] [router.go:833]  庄园
+2019/11/28 16:31:52.034 [D] [router.go:833]  SELECT taskinfo.id, gameinfo.name, taskinfo.phone, taskinfo.Frequency, taskinfo.tester, taskinfo.time, taskinfo.interval FROM taskinfo INNER JOIN gameinfo ON gameinfo.id = taskinfo.gameid AND gameinfo.name = ?
+2019/11/28 16:31:52.070 [D] [router.go:833]  [{3 xiaomi 庄园 0 0 2019-11-24 13:06:03 +0800 CST 1} {33 xiaomi 庄园 0 0 2019-11-25 03:46:46 +0800 CST 1} {34 xiaomi 庄园 0 0 2019-11-25 03:47:16 +0800 CST 1} {35 xiaomi 庄园 0 0 2019-11-25 07:18:10 +0800 CST 1} {37 10.12.130.131 庄园 0 0 2019-11-26 07:49:33 +0800 CST 1} {39 7hrf347fhrefhd 庄园 0 0 2019-11-26 09:04:45 +0800 CST 1} {40 7hrf347fhrefhd 庄园 0 0 2019-11-26 09:06:37 +0800 CST 1} {41 7hrf347fhrefhd 庄园 0 0 2019-11-26 17:12:29 +0800 CST 1} {45 7hrf347fhrefhd 庄园 0 0 2019-11-27 10:33:46 +0800 CST 1} {90 10.12.128.146 庄园 0 liliang 2019-11-28 15:46:46 +0800 CST 1} {94 10.12.128.146 庄园 0 liliang 2019-11-28 15:47:34 +0800 CST 1} {95 10.12.128.146 庄园 0 liliang 2019-11-28 15:48:45 +0800 CST 1}]
+2019/11/28 16:31:52.071 [D] [router.go:833]  SELECT taskinfo.id, gameinfo.name, taskinfo.phone, taskinfo.Frequency, taskinfo.tester, taskinfo.time, taskinfo.interval FROM taskinfo INNER JOIN gameinfo ON gameinfo.id = taskinfo.gameid AND gameinfo.name = ? SELECT taskinfo.id, gameinfo.name, taskinfo.phone, taskinfo.Frequency, taskinfo.tester, taskinfo.time, taskinfo.interval FROM taskinfo INNER JOIN gameinfo ON gameinfo.id = taskinfo.gameid AND gameinfo.name = ? AND taskinfo.phone = ?
+2019/11/28 16:31:52.074 [D] [router.go:833]  [{3 xiaomi 庄园 0 0 2019-11-24 13:06:03 +0800 CST 1} {33 xiaomi 庄园 0 0 2019-11-25 03:46:46 +0800 CST 1} {34 xiaomi 庄园 0 0 2019-11-25 03:47:16 +0800 CST 1} {35 xiaomi 庄园 0 0 2019-11-25 07:18:10 +0800 CST 1} {37 10.12.130.131 庄园 0 0 2019-11-26 07:49:33 +0800 CST 1} {39 7hrf347fhrefhd 庄园 0 0 2019-11-26 09:04:45 +0800 CST 1} {40 7hrf347fhrefhd 庄园 0 0 2019-11-26 09:06:37 +0800 CST 1} {41 7hrf347fhrefhd 庄园 0 0 2019-11-26 17:12:29 +0800 CST 1} {45 7hrf347fhrefhd 庄园 0 0 2019-11-27 10:33:46 +0800 CST 1} {90 10.12.128.146 庄园 0 liliang 2019-11-28 15:46:46 +0800 CST 1} {94 10.12.128.146 庄园 0 liliang 2019-11-28 15:47:34 +0800 CST 1} {95 10.12.128.146 庄园 0 liliang 2019-11-28 15:48:45 +0800 CST 1}]
+2019/11/28 16:31:52.076 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    51.1348ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/28 16:33:51.080 [D] [proc.go:200]  perfshow start
+2019/11/28 16:33:51.350 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/28 16:33:58.817 [D] [router.go:833]  gettaskinfo
+2019/11/28 16:33:58.868 [D] [router.go:833]  庄园
+2019/11/28 16:33:58.868 [D] [router.go:833]  query gamename
+2019/11/28 16:33:58.868 [D] [router.go:833]  庄园
+2019/11/28 16:33:58.868 [D] [router.go:833]  SELECT taskinfo.id, gameinfo.name, taskinfo.phone, taskinfo.frequency, taskinfo.tester, taskinfo.time, taskinfo.interval FROM taskinfo INNER JOIN gameinfo ON gameinfo.id = taskinfo.gameid AND gameinfo.name = ?
+2019/11/28 16:33:58.881 [D] [router.go:833]  [{3 xiaomi 庄园 0 0 2019-11-24 13:06:03 +0800 CST 1} {33 xiaomi 庄园 0 0 2019-11-25 03:46:46 +0800 CST 1} {34 xiaomi 庄园 0 0 2019-11-25 03:47:16 +0800 CST 1} {35 xiaomi 庄园 0 0 2019-11-25 07:18:10 +0800 CST 1} {37 10.12.130.131 庄园 0 0 2019-11-26 07:49:33 +0800 CST 1} {39 7hrf347fhrefhd 庄园 0 0 2019-11-26 09:04:45 +0800 CST 1} {40 7hrf347fhrefhd 庄园 0 0 2019-11-26 09:06:37 +0800 CST 1} {41 7hrf347fhrefhd 庄园 0 0 2019-11-26 17:12:29 +0800 CST 1} {45 7hrf347fhrefhd 庄园 0 0 2019-11-27 10:33:46 +0800 CST 1} {90 10.12.128.146 庄园 0 liliang 2019-11-28 15:46:46 +0800 CST 1} {94 10.12.128.146 庄园 0 liliang 2019-11-28 15:47:34 +0800 CST 1} {95 10.12.128.146 庄园 0 liliang 2019-11-28 15:48:45 +0800 CST 1}]
+2019/11/28 16:33:58.881 [D] [router.go:833]  SELECT taskinfo.id, gameinfo.name, taskinfo.phone, taskinfo.frequency, taskinfo.tester, taskinfo.time, taskinfo.interval FROM taskinfo INNER JOIN gameinfo ON gameinfo.id = taskinfo.gameid AND gameinfo.name = ? SELECT taskinfo.id, gameinfo.name, taskinfo.phone, taskinfo.frequency, taskinfo.tester, taskinfo.time, taskinfo.interval FROM taskinfo INNER JOIN gameinfo ON gameinfo.id = taskinfo.gameid AND gameinfo.name = ? AND taskinfo.phone = ?
+2019/11/28 16:33:58.892 [D] [router.go:833]  [{3 xiaomi 庄园 0 0 2019-11-24 13:06:03 +0800 CST 1} {33 xiaomi 庄园 0 0 2019-11-25 03:46:46 +0800 CST 1} {34 xiaomi 庄园 0 0 2019-11-25 03:47:16 +0800 CST 1} {35 xiaomi 庄园 0 0 2019-11-25 07:18:10 +0800 CST 1} {37 10.12.130.131 庄园 0 0 2019-11-26 07:49:33 +0800 CST 1} {39 7hrf347fhrefhd 庄园 0 0 2019-11-26 09:04:45 +0800 CST 1} {40 7hrf347fhrefhd 庄园 0 0 2019-11-26 09:06:37 +0800 CST 1} {41 7hrf347fhrefhd 庄园 0 0 2019-11-26 17:12:29 +0800 CST 1} {45 7hrf347fhrefhd 庄园 0 0 2019-11-27 10:33:46 +0800 CST 1} {90 10.12.128.146 庄园 0 liliang 2019-11-28 15:46:46 +0800 CST 1} {94 10.12.128.146 庄园 0 liliang 2019-11-28 15:47:34 +0800 CST 1} {95 10.12.128.146 庄园 0 liliang 2019-11-28 15:48:45 +0800 CST 1}]
+2019/11/28 16:33:58.893 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    76.2029ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/28 16:39:30.601 [D] [router.go:833]  gettaskinfo
+2019/11/28 16:39:30.609 [D] [router.go:833]  庄园
+2019/11/28 16:39:30.609 [D] [router.go:833]  query gamename
+2019/11/28 16:39:30.611 [D] [router.go:833]  庄园
+2019/11/28 16:39:30.612 [D] [router.go:833]  SELECT taskinfo.id, gameinfo.name, taskinfo.phone, taskinfo.frequency, taskinfo.tester, taskinfo.time, taskinfo.interval FROM taskinfo INNER JOIN gameinfo ON gameinfo.id = taskinfo.gameid AND gameinfo.name = ?
+2019/11/28 16:39:30.618 [D] [router.go:833]  [{3 xiaomi 庄园 0 0 2019-11-24 13:06:03 +0800 CST 1} {33 xiaomi 庄园 0 0 2019-11-25 03:46:46 +0800 CST 1} {34 xiaomi 庄园 0 0 2019-11-25 03:47:16 +0800 CST 1} {35 xiaomi 庄园 0 0 2019-11-25 07:18:10 +0800 CST 1} {37 10.12.130.131 庄园 0 0 2019-11-26 07:49:33 +0800 CST 1} {39 7hrf347fhrefhd 庄园 0 0 2019-11-26 09:04:45 +0800 CST 1} {40 7hrf347fhrefhd 庄园 0 0 2019-11-26 09:06:37 +0800 CST 1} {41 7hrf347fhrefhd 庄园 0 0 2019-11-26 17:12:29 +0800 CST 1} {45 7hrf347fhrefhd 庄园 0 0 2019-11-27 10:33:46 +0800 CST 1} {90 10.12.128.146 庄园 0 liliang 2019-11-28 15:46:46 +0800 CST 1} {94 10.12.128.146 庄园 0 liliang 2019-11-28 15:47:34 +0800 CST 1} {95 10.12.128.146 庄园 0 liliang 2019-11-28 15:48:45 +0800 CST 1}]
+2019/11/28 16:39:30.619 [D] [router.go:833]  SELECT taskinfo.id, gameinfo.name, taskinfo.phone, taskinfo.frequency, taskinfo.tester, taskinfo.time, taskinfo.interval FROM taskinfo INNER JOIN gameinfo ON gameinfo.id = taskinfo.gameid AND gameinfo.name = ? SELECT taskinfo.id, gameinfo.name, taskinfo.phone, taskinfo.frequency, taskinfo.tester, taskinfo.time, taskinfo.interval FROM taskinfo INNER JOIN gameinfo ON gameinfo.id = taskinfo.gameid AND gameinfo.name = ? AND taskinfo.phone = ?
+2019/11/28 16:39:30.627 [D] [router.go:833]  [{3 xiaomi 庄园 0 0 2019-11-24 13:06:03 +0800 CST 1} {33 xiaomi 庄园 0 0 2019-11-25 03:46:46 +0800 CST 1} {34 xiaomi 庄园 0 0 2019-11-25 03:47:16 +0800 CST 1} {35 xiaomi 庄园 0 0 2019-11-25 07:18:10 +0800 CST 1} {37 10.12.130.131 庄园 0 0 2019-11-26 07:49:33 +0800 CST 1} {39 7hrf347fhrefhd 庄园 0 0 2019-11-26 09:04:45 +0800 CST 1} {40 7hrf347fhrefhd 庄园 0 0 2019-11-26 09:06:37 +0800 CST 1} {41 7hrf347fhrefhd 庄园 0 0 2019-11-26 17:12:29 +0800 CST 1} {45 7hrf347fhrefhd 庄园 0 0 2019-11-27 10:33:46 +0800 CST 1} {90 10.12.128.146 庄园 0 liliang 2019-11-28 15:46:46 +0800 CST 1} {94 10.12.128.146 庄园 0 liliang 2019-11-28 15:47:34 +0800 CST 1} {95 10.12.128.146 庄园 0 liliang 2019-11-28 15:48:45 +0800 CST 1}]
+2019/11/28 16:39:30.633 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    32.5777ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/28 16:40:09.892 [D] [router.go:833]  gettaskinfo
+2019/11/28 16:40:09.900 [D] [router.go:833]  庄园
+2019/11/28 16:40:09.902 [D] [router.go:833]  query gamename
+2019/11/28 16:40:09.902 [D] [router.go:833]  庄园
+2019/11/28 16:40:09.902 [D] [router.go:833]  SELECT taskinfo.id, gameinfo.name, taskinfo.phone, taskinfo.frequency, taskinfo.tester, taskinfo.time, taskinfo.interval FROM taskinfo INNER JOIN gameinfo ON gameinfo.id = taskinfo.gameid AND gameinfo.name = ?
+2019/11/28 16:40:09.908 [D] [router.go:833]  [{3 xiaomi 庄园 0 0 2019-11-24 13:06:03 +0800 CST 1} {33 xiaomi 庄园 0 0 2019-11-25 03:46:46 +0800 CST 1} {34 xiaomi 庄园 0 0 2019-11-25 03:47:16 +0800 CST 1} {35 xiaomi 庄园 0 0 2019-11-25 07:18:10 +0800 CST 1} {37 10.12.130.131 庄园 0 0 2019-11-26 07:49:33 +0800 CST 1} {39 7hrf347fhrefhd 庄园 0 0 2019-11-26 09:04:45 +0800 CST 1} {40 7hrf347fhrefhd 庄园 0 0 2019-11-26 09:06:37 +0800 CST 1} {41 7hrf347fhrefhd 庄园 0 0 2019-11-26 17:12:29 +0800 CST 1} {45 7hrf347fhrefhd 庄园 0 0 2019-11-27 10:33:46 +0800 CST 1} {90 10.12.128.146 庄园 0 liliang 2019-11-28 15:46:46 +0800 CST 1} {94 10.12.128.146 庄园 0 liliang 2019-11-28 15:47:34 +0800 CST 1} {95 10.12.128.146 庄园 0 liliang 2019-11-28 15:48:45 +0800 CST 1}]
+2019/11/28 16:40:09.909 [D] [router.go:833]  SELECT taskinfo.id, gameinfo.name, taskinfo.phone, taskinfo.frequency, taskinfo.tester, taskinfo.time, taskinfo.interval FROM taskinfo INNER JOIN gameinfo ON gameinfo.id = taskinfo.gameid AND gameinfo.name = ? SELECT taskinfo.id, gameinfo.name, taskinfo.phone, taskinfo.frequency, taskinfo.tester, taskinfo.time, taskinfo.interval FROM taskinfo INNER JOIN gameinfo ON gameinfo.id = taskinfo.gameid AND gameinfo.name = ? AND taskinfo.phone = ?
+2019/11/28 16:40:09.916 [D] [router.go:833]  [{3 xiaomi 庄园 0 0 2019-11-24 13:06:03 +0800 CST 1} {33 xiaomi 庄园 0 0 2019-11-25 03:46:46 +0800 CST 1} {34 xiaomi 庄园 0 0 2019-11-25 03:47:16 +0800 CST 1} {35 xiaomi 庄园 0 0 2019-11-25 07:18:10 +0800 CST 1} {37 10.12.130.131 庄园 0 0 2019-11-26 07:49:33 +0800 CST 1} {39 7hrf347fhrefhd 庄园 0 0 2019-11-26 09:04:45 +0800 CST 1} {40 7hrf347fhrefhd 庄园 0 0 2019-11-26 09:06:37 +0800 CST 1} {41 7hrf347fhrefhd 庄园 0 0 2019-11-26 17:12:29 +0800 CST 1} {45 7hrf347fhrefhd 庄园 0 0 2019-11-27 10:33:46 +0800 CST 1} {90 10.12.128.146 庄园 0 liliang 2019-11-28 15:46:46 +0800 CST 1} {94 10.12.128.146 庄园 0 liliang 2019-11-28 15:47:34 +0800 CST 1} {95 10.12.128.146 庄园 0 liliang 2019-11-28 15:48:45 +0800 CST 1}]
+2019/11/28 16:40:09.917 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    26.0699ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/28 16:40:11.226 [D] [proc.go:200]  perfshow start
+2019/11/28 16:40:11.322 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/28 16:43:17.862 [D] [proc.go:200]  perfshow start
+2019/11/28 16:43:17.950 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/28 16:43:59.349 [D] [proc.go:200]  perfshow start
+2019/11/28 16:43:59.530 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/28 16:44:01.895 [D] [proc.go:200]  perfshow start
+2019/11/28 16:44:01.993 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/28 16:46:05.203 [D] [proc.go:200]  perfshow start
+2019/11/28 16:46:05.333 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/28 16:46:06.568 [D] [proc.go:200]  perfshow start
+2019/11/28 16:46:06.687 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/28 16:46:18.394 [D] [router.go:833]  gettaskinfo
+2019/11/28 16:46:18.407 [D] [router.go:833]  庄园
+2019/11/28 16:46:18.408 [D] [router.go:833]  query gamename
+2019/11/28 16:46:18.408 [D] [router.go:833]  庄园
+2019/11/28 16:46:18.408 [D] [router.go:833]  SELECT taskinfo.id, gameinfo.name, taskinfo.phone, taskinfo.frequency, taskinfo.tester, taskinfo.time, taskinfo.interval FROM taskinfo INNER JOIN gameinfo ON gameinfo.id = taskinfo.gameid AND gameinfo.name = ?
+2019/11/28 16:46:18.416 [D] [router.go:833]  [{3 xiaomi 庄园 0 0 2019-11-24 13:06:03 +0800 CST 1} {33 xiaomi 庄园 0 0 2019-11-25 03:46:46 +0800 CST 1} {34 xiaomi 庄园 0 0 2019-11-25 03:47:16 +0800 CST 1} {35 xiaomi 庄园 0 0 2019-11-25 07:18:10 +0800 CST 1} {37 10.12.130.131 庄园 0 0 2019-11-26 07:49:33 +0800 CST 1} {39 7hrf347fhrefhd 庄园 0 0 2019-11-26 09:04:45 +0800 CST 1} {40 7hrf347fhrefhd 庄园 0 0 2019-11-26 09:06:37 +0800 CST 1} {41 7hrf347fhrefhd 庄园 0 0 2019-11-26 17:12:29 +0800 CST 1} {45 7hrf347fhrefhd 庄园 0 0 2019-11-27 10:33:46 +0800 CST 1} {90 10.12.128.146 庄园 0 liliang 2019-11-28 15:46:46 +0800 CST 1} {94 10.12.128.146 庄园 0 liliang 2019-11-28 15:47:34 +0800 CST 1} {95 10.12.128.146 庄园 0 liliang 2019-11-28 15:48:45 +0800 CST 1}]
+2019/11/28 16:46:18.416 [D] [router.go:833]  (taskinfo.phone = ?) AS 10.12.128.146
+2019/11/28 16:46:18.417 [D] [router.go:833]  SELECT taskinfo.id, gameinfo.name, taskinfo.phone, taskinfo.frequency, taskinfo.tester, taskinfo.time, taskinfo.interval FROM taskinfo INNER JOIN gameinfo ON gameinfo.id = taskinfo.gameid AND gameinfo.name = ? AND taskinfo.phone = ?
+2019/11/28 16:46:18.422 [D] [router.go:833]  [{90 10.12.128.146 庄园 0 liliang 2019-11-28 15:46:46 +0800 CST 1} {94 10.12.128.146 庄园 0 liliang 2019-11-28 15:47:34 +0800 CST 1} {95 10.12.128.146 庄园 0 liliang 2019-11-28 15:48:45 +0800 CST 1}]
+2019/11/28 16:46:18.426 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    32.1146ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/28 16:46:57.446 [D] [proc.go:200]  perfshow start
+2019/11/28 16:46:57.595 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/28 16:46:59.470 [D] [proc.go:200]  perfshow start
+2019/11/28 16:46:59.593 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/28 16:47:00.967 [D] [proc.go:200]  perfshow start
+2019/11/28 16:47:01.054 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/28 16:47:01.265 [D] [router.go:833]  gettaskinfo
+2019/11/28 16:47:01.282 [D] [router.go:833]  庄园
+2019/11/28 16:47:01.283 [D] [router.go:833]  query gamename
+2019/11/28 16:47:01.283 [D] [router.go:833]  庄园
+2019/11/28 16:47:01.283 [D] [router.go:833]  SELECT taskinfo.id, gameinfo.name, taskinfo.phone, taskinfo.frequency, taskinfo.tester, taskinfo.time, taskinfo.interval FROM taskinfo INNER JOIN gameinfo ON gameinfo.id = taskinfo.gameid AND gameinfo.name = ?
+2019/11/28 16:47:01.293 [D] [router.go:833]  [{3 xiaomi 庄园 0 0 2019-11-24 13:06:03 +0800 CST 1} {33 xiaomi 庄园 0 0 2019-11-25 03:46:46 +0800 CST 1} {34 xiaomi 庄园 0 0 2019-11-25 03:47:16 +0800 CST 1} {35 xiaomi 庄园 0 0 2019-11-25 07:18:10 +0800 CST 1} {37 10.12.130.131 庄园 0 0 2019-11-26 07:49:33 +0800 CST 1} {39 7hrf347fhrefhd 庄园 0 0 2019-11-26 09:04:45 +0800 CST 1} {40 7hrf347fhrefhd 庄园 0 0 2019-11-26 09:06:37 +0800 CST 1} {41 7hrf347fhrefhd 庄园 0 0 2019-11-26 17:12:29 +0800 CST 1} {45 7hrf347fhrefhd 庄园 0 0 2019-11-27 10:33:46 +0800 CST 1} {90 10.12.128.146 庄园 0 liliang 2019-11-28 15:46:46 +0800 CST 1} {94 10.12.128.146 庄园 0 liliang 2019-11-28 15:47:34 +0800 CST 1} {95 10.12.128.146 庄园 0 liliang 2019-11-28 15:48:45 +0800 CST 1}]
+2019/11/28 16:47:01.294 [D] [router.go:833]  (taskinfo.phone = ?) AS 10.12.128.146
+2019/11/28 16:47:01.294 [D] [router.go:833]  SELECT taskinfo.id, gameinfo.name, taskinfo.phone, taskinfo.frequency, taskinfo.tester, taskinfo.time, taskinfo.interval FROM taskinfo INNER JOIN gameinfo ON gameinfo.id = taskinfo.gameid AND gameinfo.name = ?
+2019/11/28 16:47:01.294 [D] [router.go:833]  [{3 xiaomi 庄园 0 0 2019-11-24 13:06:03 +0800 CST 1} {33 xiaomi 庄园 0 0 2019-11-25 03:46:46 +0800 CST 1} {34 xiaomi 庄园 0 0 2019-11-25 03:47:16 +0800 CST 1} {35 xiaomi 庄园 0 0 2019-11-25 07:18:10 +0800 CST 1} {37 10.12.130.131 庄园 0 0 2019-11-26 07:49:33 +0800 CST 1} {39 7hrf347fhrefhd 庄园 0 0 2019-11-26 09:04:45 +0800 CST 1} {40 7hrf347fhrefhd 庄园 0 0 2019-11-26 09:06:37 +0800 CST 1} {41 7hrf347fhrefhd 庄园 0 0 2019-11-26 17:12:29 +0800 CST 1} {45 7hrf347fhrefhd 庄园 0 0 2019-11-27 10:33:46 +0800 CST 1} {90 10.12.128.146 庄园 0 liliang 2019-11-28 15:46:46 +0800 CST 1} {94 10.12.128.146 庄园 0 liliang 2019-11-28 15:47:34 +0800 CST 1} {95 10.12.128.146 庄园 0 liliang 2019-11-28 15:48:45 +0800 CST 1}]
+2019/11/28 16:47:01.298 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    32.5871ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/28 16:47:28.841 [D] [proc.go:200]  perfshow start
+2019/11/28 16:47:28.978 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/28 16:47:31.295 [D] [proc.go:200]  perfshow start
+2019/11/28 16:47:31.427 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/28 16:47:31.528 [D] [router.go:833]  gettaskinfo
+2019/11/28 16:47:31.553 [D] [router.go:833]  庄园
+2019/11/28 16:47:31.554 [D] [router.go:833]  query gamename
+2019/11/28 16:47:31.554 [D] [router.go:833]  庄园
+2019/11/28 16:47:31.555 [D] [router.go:833]  SELECT taskinfo.id, gameinfo.name, taskinfo.phone, taskinfo.frequency, taskinfo.tester, taskinfo.time, taskinfo.interval FROM taskinfo INNER JOIN gameinfo ON gameinfo.id = taskinfo.gameid AND gameinfo.name = ?
+2019/11/28 16:47:31.571 [D] [router.go:833]  [{3 xiaomi 庄园 0 0 2019-11-24 13:06:03 +0800 CST 1} {33 xiaomi 庄园 0 0 2019-11-25 03:46:46 +0800 CST 1} {34 xiaomi 庄园 0 0 2019-11-25 03:47:16 +0800 CST 1} {35 xiaomi 庄园 0 0 2019-11-25 07:18:10 +0800 CST 1} {37 10.12.130.131 庄园 0 0 2019-11-26 07:49:33 +0800 CST 1} {39 7hrf347fhrefhd 庄园 0 0 2019-11-26 09:04:45 +0800 CST 1} {40 7hrf347fhrefhd 庄园 0 0 2019-11-26 09:06:37 +0800 CST 1} {41 7hrf347fhrefhd 庄园 0 0 2019-11-26 17:12:29 +0800 CST 1} {45 7hrf347fhrefhd 庄园 0 0 2019-11-27 10:33:46 +0800 CST 1} {90 10.12.128.146 庄园 0 liliang 2019-11-28 15:46:46 +0800 CST 1} {94 10.12.128.146 庄园 0 liliang 2019-11-28 15:47:34 +0800 CST 1} {95 10.12.128.146 庄园 0 liliang 2019-11-28 15:48:45 +0800 CST 1}]
+2019/11/28 16:47:31.572 [D] [router.go:833]  SELECT taskinfo.id, gameinfo.name, taskinfo.phone, taskinfo.frequency, taskinfo.tester, taskinfo.time, taskinfo.interval FROM taskinfo INNER JOIN gameinfo ON gameinfo.id = taskinfo.gameid AND gameinfo.name = ? AND taskinfo.phone = ?
+2019/11/28 16:47:31.589 [D] [router.go:833]  [{90 10.12.128.146 庄园 0 liliang 2019-11-28 15:46:46 +0800 CST 1} {94 10.12.128.146 庄园 0 liliang 2019-11-28 15:47:34 +0800 CST 1} {95 10.12.128.146 庄园 0 liliang 2019-11-28 15:48:45 +0800 CST 1}]
+2019/11/28 16:47:31.600 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    71.1896ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/28 16:47:33.129 [D] [proc.go:200]  perfshow start
+2019/11/28 16:47:33.257 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/28 17:00:33.348 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/28 17:00:33.515 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    15.5417ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/28 17:00:34.461 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/28 17:00:34.467 [D] [router.go:833]  gettaskinfo
+2019/11/28 17:00:34.473 [D] [router.go:833]  
+2019/11/28 17:00:34.474 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     6.5308ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/28 17:17:34.211 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|      501.2µs| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/28 17:17:34.259 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     5.0187ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/28 17:17:35.297 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/28 17:17:35.315 [D] [router.go:833]  gettaskinfo
+2019/11/28 17:17:35.318 [D] [router.go:833]  
+2019/11/28 17:17:35.319 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     3.4771ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/28 17:17:46.707 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/28 17:17:46.741 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     2.9809ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/28 17:17:48.479 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/28 17:17:48.492 [D] [router.go:833]  gettaskinfo
+2019/11/28 17:17:48.517 [D] [router.go:833]  
+2019/11/28 17:17:48.520 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|    27.5748ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/28 17:17:57.544 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|      501.2µs| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/28 17:17:57.581 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|    25.5681ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/28 17:18:07.018 [D] [router.go:835]  CreateTaskinfoController
+2019/11/28 17:18:07.038 [D] [router.go:835]  {20191128171808896 109 10.12.196.82 liliang 2019-11-28 17:18:07.0248385 +0800 CST m=+1834.184535501 3 5}
+2019/11/28 17:18:07.059 [D] [server.go:2774]  |    10.12.129.0|[42m 200 [0m|    85.7073ms|   match|[46m POST    [0m /perfshow/createtaskinfo   r:/perfshow/createtaskinfo
+2019/11/28 17:18:08.555 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/28 17:18:08.566 [D] [router.go:833]  gettaskinfo
+2019/11/28 17:18:08.571 [D] [router.go:833]  
+2019/11/28 17:18:08.571 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     5.0148ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/28 17:33:19.848 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|      501.2µs| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/28 17:35:59.948 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/28 17:36:00.038 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     8.5205ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/28 17:36:02.609 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/28 17:36:05.763 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/28 17:36:06.131 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/28 17:36:06.233 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     3.0088ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/28 17:36:53.237 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|      502.3µs| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/28 17:36:53.279 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|      3.008ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/28 17:38:12.598 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/28 17:38:12.633 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     5.5009ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/28 17:38:14.433 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/28 17:38:14.440 [D] [router.go:833]  gettaskinfo
+2019/11/28 17:38:14.445 [D] [router.go:833]  
+2019/11/28 17:38:14.448 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     7.5204ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/28 20:23:40.008 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/28 20:23:40.060 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|    11.5598ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/28 20:23:41.583 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/28 20:23:41.593 [D] [router.go:833]  gettaskinfo
+2019/11/28 20:23:41.600 [D] [router.go:833]  
+2019/11/28 20:23:41.601 [D] [server.go:2774]  |  10.12.128.146|[42m 200 [0m|     7.5212ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/28 20:28:19.573 [D] [router.go:833]  gettaskinfo
+2019/11/28 20:28:19.576 [D] [router.go:833]  庄园
+2019/11/28 20:28:19.576 [D] [router.go:833]  query gamename
+2019/11/28 20:28:19.577 [D] [router.go:833]  庄园
+2019/11/28 20:28:19.577 [D] [router.go:833]  SELECT taskinfo.id, gameinfo.name, taskinfo.phone, taskinfo.frequency, taskinfo.tester, taskinfo.time, taskinfo.interval FROM taskinfo INNER JOIN gameinfo ON gameinfo.id = taskinfo.gameid AND gameinfo.name = ?
+2019/11/28 20:28:19.583 [D] [router.go:833]  [{3 xiaomi 庄园 0 0 2019-11-24 13:06:03 +0800 CST 1} {33 xiaomi 庄园 0 0 2019-11-25 03:46:46 +0800 CST 1} {34 xiaomi 庄园 0 0 2019-11-25 03:47:16 +0800 CST 1} {35 xiaomi 庄园 0 0 2019-11-25 07:18:10 +0800 CST 1} {37 10.12.130.131 庄园 0 0 2019-11-26 07:49:33 +0800 CST 1} {39 7hrf347fhrefhd 庄园 0 0 2019-11-26 09:04:45 +0800 CST 1} {40 7hrf347fhrefhd 庄园 0 0 2019-11-26 09:06:37 +0800 CST 1} {41 7hrf347fhrefhd 庄园 0 0 2019-11-26 17:12:29 +0800 CST 1} {45 7hrf347fhrefhd 庄园 0 0 2019-11-27 10:33:46 +0800 CST 1} {90 10.12.128.146 庄园 0 liliang 2019-11-28 15:46:46 +0800 CST 1} {94 10.12.128.146 庄园 0 liliang 2019-11-28 15:47:34 +0800 CST 1} {95 10.12.128.146 庄园 0 liliang 2019-11-28 15:48:45 +0800 CST 1}]
+2019/11/28 20:28:19.583 [D] [router.go:833]  SELECT taskinfo.id, gameinfo.name, taskinfo.phone, taskinfo.frequency, taskinfo.tester, taskinfo.time, taskinfo.interval FROM taskinfo INNER JOIN gameinfo ON gameinfo.id = taskinfo.gameid AND gameinfo.name = ? AND taskinfo.phone = ?
+2019/11/28 20:28:19.589 [D] [router.go:833]  [{90 10.12.128.146 庄园 0 liliang 2019-11-28 15:46:46 +0800 CST 1} {94 10.12.128.146 庄园 0 liliang 2019-11-28 15:47:34 +0800 CST 1} {95 10.12.128.146 庄园 0 liliang 2019-11-28 15:48:45 +0800 CST 1}]
+2019/11/28 20:28:19.592 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    19.5516ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/28 20:54:40.886 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/28 20:54:40.984 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.5106ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/28 20:54:41.534 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/28 20:54:41.540 [D] [router.go:833]  gettaskinfo
+2019/11/28 20:54:41.543 [D] [router.go:833]  
+2019/11/28 20:54:41.544 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.5116ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/28 20:55:10.203 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/28 20:55:10.208 [D] [router.go:833]  gettaskinfo
+2019/11/28 20:55:10.212 [D] [router.go:833]  
+2019/11/28 20:55:10.213 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.9926ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/28 20:55:10.605 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/28 20:55:10.615 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     2.0053ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/28 20:55:11.163 [D] [router.go:833]  gettaskinfo
+2019/11/28 20:55:11.166 [D] [router.go:833]  
+2019/11/28 20:55:11.166 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     2.9824ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/28 20:55:59.472 [D] [proc.go:200]  perfshow start
+2019/11/28 20:55:59.572 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/28 20:58:00.018 [D] [proc.go:200]  perfshow start
+2019/11/28 20:58:00.187 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/28 20:58:01.707 [D] [proc.go:200]  perfshow start
+2019/11/28 20:58:01.811 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/28 20:58:23.411 [D] [proc.go:200]  perfshow start
+2019/11/28 20:58:23.504 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/28 20:58:33.377 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/getgameinfo/
+2019/11/28 20:58:33.393 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    10.0244ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/28 20:58:33.792 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|           0s| nomatch|[47m OPTIONS [0m /perfshow/gettaskinfo
+2019/11/28 20:58:33.797 [D] [router.go:833]  gettaskinfo
+2019/11/28 20:58:33.810 [D] [router.go:833]  
+2019/11/28 20:58:33.815 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    17.5468ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/28 20:58:42.366 [D] [router.go:833]  GetPerfdataController
+2019/11/28 20:58:42.367 [D] [router.go:833]  
+2019/11/28 20:58:42.367 [D] [router.go:833]  gamename null
+2019/11/28 20:58:42.368 [D] [perfdata.go:76]  GetAllPerfdata
+2019/11/28 20:58:42.380 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    14.0376ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/28 20:59:18.849 [D] [router.go:833]  GetPerfdataController
+2019/11/28 20:59:18.849 [D] [router.go:833]  
+2019/11/28 20:59:18.851 [D] [router.go:833]  gamename null
+2019/11/28 20:59:18.851 [D] [perfdata.go:76]  GetAllPerfdata
+2019/11/28 20:59:18.862 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     12.534ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/28 20:59:56.729 [D] [router.go:833]  GetPerfdataController
+2019/11/28 20:59:56.731 [D] [router.go:833]  
+2019/11/28 20:59:56.732 [D] [router.go:833]  gamename null
+2019/11/28 20:59:56.760 [D] [perfdata.go:76]  GetAllPerfdata
+2019/11/28 20:59:56.826 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    97.2586ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/28 21:00:52.033 [D] [proc.go:200]  perfshow start
+2019/11/28 21:00:52.121 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/28 21:07:28.565 [D] [proc.go:200]  perfshow start
+2019/11/28 21:07:28.652 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/28 21:32:54.507 [D] [proc.go:200]  perfshow start
+2019/11/28 21:32:54.591 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/28 21:33:17.167 [D] [proc.go:200]  perfshow start
+2019/11/28 21:33:17.252 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/28 21:33:23.512 [D] [router.go:833]  GetPerfdataController
+2019/11/28 21:33:23.513 [D] [router.go:833]  
+2019/11/28 21:33:23.513 [D] [router.go:833]  gamename null
+2019/11/28 21:33:23.514 [D] [perfdata.go:85]  GetAllPerfdata
+2019/11/28 21:33:23.526 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    13.5353ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/28 21:35:23.064 [D] [proc.go:200]  perfshow start
+2019/11/28 21:35:23.230 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/28 21:35:26.912 [D] [router.go:833]  GetPerfdataController
+2019/11/28 21:35:26.913 [D] [router.go:833]  
+2019/11/28 21:35:26.913 [D] [router.go:833]  gamename null
+2019/11/28 21:35:26.913 [D] [perfdata.go:86]  GetAllPerfdata
+2019/11/28 21:35:26.924 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    12.0312ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/28 21:36:35.231 [D] [proc.go:200]  perfshow start
+2019/11/28 21:36:35.325 [I] [asm_amd64.s:1337]  http server Running on http://10.12.129.43:8001
+2019/11/28 21:36:43.011 [D] [router.go:833]  GetPerfdataController
+2019/11/28 21:36:43.012 [D] [router.go:833]  0
+2019/11/28 21:36:43.012 [D] [router.go:833]  0
+2019/11/28 21:36:43.012 [D] [router.go:833]  gamename null
+2019/11/28 21:36:43.012 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/28 21:36:43.028 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    17.0249ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata
+2019/11/28 21:36:55.283 [D] [router.go:833]  GetPerfdataController
+2019/11/28 21:36:55.284 [D] [router.go:833]  3
+2019/11/28 21:36:55.284 [D] [router.go:833]  3
+2019/11/28 21:36:55.284 [D] [router.go:833]  query taskid
+2019/11/28 21:36:55.284 [D] [router.go:833]  3
+2019/11/28 21:36:55.295 [D] [router.go:833]  [{10 3 0 60.6 31.2 21.2 35.4 25.4 15.4 700.533 300.533 100.633 700.533 300.533 100.633 300.533 100.633 0} {11 3 0 60.6 31.2 21.2 35.4 25.4 15.4 700.533 300.533 100.633 700.533 300.533 100.633 300.533 100.633 0} {12 3 0 60.6 31.2 21.2 35.4 25.4 15.4 700.533 300.533 100.633 700.533 300.533 100.633 300.533 100.633 0} {13 3 0 60.6 31.2 21.2 35.4 25.4 15.4 700.533 300.533 100.633 700.533 300.533 100.633 300.533 100.633 0} {14 3 xiaomi3 60.6 31.2 21.2 35.4 25.4 15.4 700.533 300.533 100.633 700.533 300.533 100.633 300.533 100.633 0} {15 3 xiaomi3 60.6 31.2 21.2 35.4 25.4 15.4 700.533 300.533 100.633 700.533 300.533 100.633 300.533 100.633 0} {16 3 xiaomi3 60.6 31.2 21.2 35.4 25.4 15.4 700.533 300.533 100.633 700.533 300.533 100.633 300.533 100.633 0} {17 3 xiaomi3 60.6 31.2 21.2 35.4 25.4 15.4 700.533 300.533 100.633 700.533 300.533 100.633 300.533 100.633 11}]
+2019/11/28 21:36:55.295 [D] [router.go:833]  &{0xc000204320 <nil> [] 0 0 0 [] [] false false 0xc0003cd3e0 <nil> false}
+2019/11/28 21:36:55.296 [D] [router.go:833]  &{0 0  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0}
+2019/11/28 21:36:55.296 [D] [perfdata.go:88]  GetAllPerfdata
+2019/11/28 21:36:55.309 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    25.5405ms|   match|[44m GET     [0m /perfshow/getperfdata   r:/perfshow/getperfdata

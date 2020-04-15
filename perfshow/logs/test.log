@@ -1,0 +1,42 @@
+2019/11/25 14:50:21.130 [I] [asm_amd64.s:1337]  http server Running on http://:8001
+2019/11/25 14:50:22.457 [I] [asm_amd64.s:1337]  http server Running on http://:8001
+2019/11/25 14:50:23.547 [I] [asm_amd64.s:1337]  http server Running on http://:8001
+2019/11/25 14:50:55.777 [I] [asm_amd64.s:1337]  http server Running on http://:8001
+2019/11/25 14:51:02.575 [I] [asm_amd64.s:1337]  http server Running on http://:8001
+2019/11/25 14:51:51.187 [I] [asm_amd64.s:1337]  http server Running on http://:8001
+2019/11/25 14:51:52.582 [I] [asm_amd64.s:1337]  http server Running on http://:8001
+2019/11/25 14:52:07.751 [I] [asm_amd64.s:1337]  http server Running on http://:8001
+2019/11/25 14:52:25.095 [I] [asm_amd64.s:1337]  http server Running on http://:8001
+2019/11/25 14:52:41.507 [I] [asm_amd64.s:1337]  http server Running on http://:8001
+2019/11/25 14:54:05.954 [I] [asm_amd64.s:1337]  http server Running on http://:8001
+2019/11/25 14:54:07.372 [I] [asm_amd64.s:1337]  http server Running on http://:8001
+2019/11/25 14:58:28.359 [I] [asm_amd64.s:1337]  http server Running on http://:8001
+2019/11/25 14:58:29.692 [I] [asm_amd64.s:1337]  http server Running on http://:8001
+2019/11/25 14:59:23.770 [D] [proc.go:200]  perfshow start
+2019/11/25 14:59:23.882 [I] [asm_amd64.s:1337]  http server Running on http://:8001
+2019/11/25 14:59:25.300 [D] [proc.go:200]  perfshow start
+2019/11/25 14:59:25.384 [I] [asm_amd64.s:1337]  http server Running on http://:8001
+2019/11/25 15:00:41.727 [D] [proc.go:200]  perfshow start
+2019/11/25 15:00:41.815 [I] [asm_amd64.s:1337]  http server Running on http://:8001
+2019/11/25 15:00:55.049 [D] [proc.go:200]  perfshow start
+2019/11/25 15:00:55.137 [I] [asm_amd64.s:1337]  http server Running on http://:8001
+2019/11/25 15:01:04.941 [D] [proc.go:200]  perfshow start
+2019/11/25 15:01:05.040 [I] [asm_amd64.s:1337]  http server Running on http://:8001
+2019/11/25 15:01:18.817 [D] [proc.go:200]  perfshow start
+2019/11/25 15:01:18.911 [I] [asm_amd64.s:1337]  http server Running on http://:8001
+2019/11/25 15:01:19.945 [D] [proc.go:200]  perfshow start
+2019/11/25 15:01:20.031 [I] [asm_amd64.s:1337]  http server Running on http://:8001
+2019/11/25 15:02:43.437 [D] [proc.go:200]  perfshow start
+2019/11/25 15:02:43.533 [I] [asm_amd64.s:1337]  http server Running on http://:8001
+2019/11/25 15:02:44.540 [D] [proc.go:200]  perfshow start
+2019/11/25 15:02:44.625 [I] [asm_amd64.s:1337]  http server Running on http://:8001
+2019/11/25 15:02:49.043 [D] [router.go:833]  gettaskinfo
+2019/11/25 15:02:49.050 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     7.0184ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/25 15:07:17.358 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    23.5622ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/25 15:07:39.724 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     5.4875ms|   match|[44m GET     [0m /perfshow/getgameinfo/   r:/perfshow/getgameinfo
+2019/11/25 15:17:59.748 [D] [router.go:833]  gettaskinfo
+2019/11/25 15:17:59.752 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     4.5116ms|   match|[44m GET     [0m /perfshow/gettaskinfo   r:/perfshow/gettaskinfo
+2019/11/25 15:18:02.023 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    13.0355ms|   match|[46m POST    [0m /perfshow/creategameinfo   r:/perfshow/creategameinfo
+2019/11/25 15:18:04.338 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     8.4997ms|   match|[46m POST    [0m /perfshow/createtaskinfo   r:/perfshow/createtaskinfo
+2019/11/25 15:18:10.298 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|     8.5686ms|   match|[46m POST    [0m /perfshow/createtaskinfo   r:/perfshow/createtaskinfo
+2019/11/25 15:18:12.723 [D] [server.go:2774]  |   10.12.129.43|[42m 200 [0m|    12.5329ms|   match|[46m POST    [0m /perfshow/createperfdata   r:/perfshow/createperfdata
